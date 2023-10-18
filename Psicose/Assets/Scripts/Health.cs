@@ -21,7 +21,7 @@ public class Health : MonoBehaviour
         }
     }
 
-    private void Damage(int amount)
+    public void Damage(int amount)
     {
         if (amount < 0)
         {
@@ -32,10 +32,10 @@ public class Health : MonoBehaviour
             Die();
         }
 
-        this.health -= amount;
+        health -= amount;
     }
 
-    private void Heal(int amount)
+    public void Heal(int amount)
     {
         if (amount < 0)
         {
@@ -46,14 +46,12 @@ public class Health : MonoBehaviour
 
         if (wouldBeOverHealth)
         {
-            this.health = MAX_HEALTH;
-
+            health = MAX_HEALTH;
         }
         else
         {
-            this.health += amount;
+            health += amount;
         }
-
     }
 
     private void Die()
