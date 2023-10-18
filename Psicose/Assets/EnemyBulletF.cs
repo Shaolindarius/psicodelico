@@ -12,7 +12,7 @@ public class BulletScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       /* rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player");
         // identifica a posição do personagem
         Vector3 direction = player.transform.position - transform.position;
@@ -21,7 +21,7 @@ public class BulletScript : MonoBehaviour
 
         // rotação de tiro
         float rot = Mathf.Atan2(-direction.y, -direction.x)* Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0,0,rot+90);*/
+        transform.rotation = Quaternion.Euler(0,0,rot+90);
     }
 
     // Update is called once per frame
@@ -40,15 +40,15 @@ public class BulletScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<Respawn>().LoseLife();
             Destroy(gameObject);
         }
+        /*
         if (collision.gameObject.CompareTag("IceBullet"))
         {
             collision.gameObject.GetComponent<GeloGround>().Ice();
             
         }
-
+        */
     }
     void OnTriggerEnter2D(Collider2D other)
     {
