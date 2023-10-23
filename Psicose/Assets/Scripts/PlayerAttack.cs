@@ -4,40 +4,35 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    private GameObject attackArea = default;
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask EnemyLayers;
+    public int attackDamage = 10;
 
-    private bool attacking = false;
 
-    private float timeToAttack = 0.5f;
-    private float timer = 0f;
-
-    private void Start()
-    {
-        attackArea = transform.GetChild(0).gameObject;
-    }
-
-    private void Update()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Attack();
         }
+    }
 
-        if (attacking)
+    void Attack()
+    {
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, EnemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies)
         {
-            timer += Time.deltaTime;
-            if(timer >= timeToAttack)
-            {
-                timer = 0;
-                attacking = false; 
-                attackArea.SetActive(false);
-            }
+            enemy.GetComponent<EnemyBehavior>().TakeDamage(attackDamage);
         }
     }
 
-    private void Attack()
+    void OnDrawGizmoSelected()
     {
-        attacking = true;
-        attackArea.SetActive(attacking);
+        if (attackPoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
