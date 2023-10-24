@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBehavior : MonoBehaviour
+public class EnemyBehavior : MonoBehaviour 
 {
     public int maxHealth = 100; // Vida máxima do inimigo
     private int currentHealth; // Vida atual do inimigo

@@ -8,7 +8,7 @@ public class Ability : MonoBehaviour
     {
         None,
         Fireball,
-        Jump, // Adicione outros tipos de habilidade, se necessário.
+        Dash,
     }
 
     public AbilityType abilityType;
@@ -29,10 +29,10 @@ public class Ability : MonoBehaviour
                 case AbilityType.Fireball:
                     FireballLogic();
                     break;
-                case AbilityType.Jump:
-                    JumpLogic();
+                case AbilityType.Dash:
+                    //DashLogic();
                     break;
-                    // Adicione outros casos para tipos de habilidade adicionais.
+                   
             }
         }
     }
@@ -42,7 +42,7 @@ public class Ability : MonoBehaviour
         isReady = true;
     }
 
-    // Lógica da habilidade de bola de fogo.
+    
     protected virtual void FireballLogic()
     {
         // Implemente a lógica para a habilidade da bola de fogo aqui.
