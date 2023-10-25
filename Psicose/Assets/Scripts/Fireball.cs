@@ -2,33 +2,62 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class FireballAbility : Ability
+public class Fireball : MonoBehaviour
 {
-    public GameObject fireballPrefab; // O prefab da bola de fogo que você deve criar.
-    public float fireballSpeed; // A velocidade da bola de fogo.
-    public Transform firePoint; // O ponto de lançamento da bola de fogo.
+    [SerializeField] public float fireballForce = 2f;
+    [SerializeField] public Rigidbody2D rb;
+    [SerializeField] public int fireballDamage = 10;
+    [SerializeField] public bool cooldownfireball = true;
+    [SerializeField] public float fireballChase;
+    [SerializeField] public GameObject fireballPrefab;
+    [SerializeField] public float timer;
+    private GameObject enemy;
 
-    public FireballAbility()
+    // Update is called once per frame
+
+    private void Start()
     {
-        abilityType = AbilityType.Fireball; // Define o tipo da habilidade como Fireball.
+        rb = GetComponent<Rigidbody2D>();
+        enemy = GameObject.FindGameObjectWithTag("Enemy");
+       
+        Vector3 direction = enemy.transform.position - transform.position;
+        rb.velocity = new Vector2 (direction.x, direction.y).normalized * fireballForce;
+
+        float rot = Mathf.Atan2 (-direction.x, -direction.y) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, rot + 90);
+
+
+
+
+    }
+    void Update()
+    {
+        timer += Time.deltaTime;
+        if(timer > 5)
+        {
+            Destroy(this.gameObject, 5f);
+        }
+
     }
 
-    public override void Activate()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        base.Activate(); // Chame o método Activate da classe pai.
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(this.gameObject);
+        }
+    }
 
-        // Crie a bola de fogo como um objeto do jogo.
-        GameObject fireball = Instantiate(fireballPrefab, firePoint.position, firePoint.rotation);
-        Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject,5f);
+        }
+    }
 
-        // Determine a direção para onde a bola de fogo deve se mover (exemplo: direção para a direita).
-        Vector2 fireballDirection = Vector2.right;
-
-        // Aplique uma força à bola de fogo para movê-la na direção desejada.
-        rb.velocity = fireballDirection * fireballSpeed;
-
-        // Destrua a bola de fogo após um determinado tempo (opcional).
-        Destroy(fireball, 5f);
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawSphere(this.transform.position, this.fireballChase);
     }
 }
