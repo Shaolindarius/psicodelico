@@ -43,9 +43,21 @@ public class Enemy_Follow : MonoBehaviour
     private float timeWaitAtk;
 
 
+    #region life
+    [SerializeField]
+    private int life;
+
+    [SerializeField]
+    private LifeBar lifeBar;
+
+    #endregion life
+
+
     private void Start()
     {
         this.timeWaitAtk = this.timeAtk;
+        this.lifeBar.MaxLife = this.life;
+        this.lifeBar.Life = this.life;
     }
 
 
@@ -168,6 +180,34 @@ public class Enemy_Follow : MonoBehaviour
                 Combat();
             }
         }
+    }
+
+
+    // função de dano recebido do inimigo
+    private void DamageHit()
+    {
+        if (this.life > 0)
+        {
+            //possuir vida ainda;
+            this.life--;
+            ViewFeedBackDano(1);
+            this.lifeBar.Life = this.life;
+            StopMove();
+            if (this.life == 0)
+            {
+                this.lifeBar.HideBar();
+                //derrotado
+                GameObject.Destroy(this.gameObject,3f);
+            }
+        }
+        
+        
+        
+    }
+    //função de feedback de dano recebido.
+    private void ViewFeedBackDano(int dano)
+    {
+        Controlador.Instance.ViewDamage(dano, this.transform.position);
     }
 
 

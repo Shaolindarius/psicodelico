@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class LifeBar : MonoBehaviour
 {
+    [SerializeField]
     private Slider slider;
 
     public int MaxLife
@@ -21,6 +22,11 @@ public class LifeBar : MonoBehaviour
             this.slider.value = value;
         }
 
+    }
+
+    public void HideBar()
+    {
+        this.gameObject.SetActive(false);
     }
 
 
