@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d41de5d778fd6df4b821b86b5e001690
+guid: 622ec017bdf971943a800b1ecc7f03fd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,6 +94,32 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -110,53 +136,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jerry Direita_0
+      name: Jerry parado 1_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 45
-        width: 21
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27a8c9cbf42871046ada1a5094ef78ea
-      internalID: 2130289522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jerry Direita_1
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 45
-        width: 21
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a01e49754430cd4d985eca9d5319d21
-      internalID: -389841786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jerry Direita_2
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 45
+        x: 1
+        y: 35
         width: 21
         height: 33
       alignment: 0
@@ -166,18 +150,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c8971a4299f0ee46ba47a6e0d669a71
-      internalID: 1821923876
+      spriteID: 676e3d79a73bc314fa494b804f755f48
+      internalID: 1727768363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jerry Direita_3
+      name: Jerry parado 1_1
       rect:
         serializedVersion: 2
-        x: 3
-        y: 5
+        x: 24
+        y: 35
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e195c7d99e63a47b9a74d40bfc1f6f
+      internalID: 2130863929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jerry parado 1_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 35
         width: 21
         height: 33
       alignment: 0
@@ -187,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ac97074ca4962049b020e66fe444f1e
-      internalID: 1744702356
+      spriteID: c8661c639715adf438d1b5fea322739a
+      internalID: 1185500544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jerry Direita_4
+      name: Jerry parado 1_3
       rect:
         serializedVersion: 2
-        x: 30
-        y: 5
+        x: 1
+        y: 1
         width: 21
-        height: 34
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +213,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 142dee507e3472c43bb99780db25937b
-      internalID: 1542885216
+      spriteID: c6c5bdb495ed5364f99a28b342ab0a4a
+      internalID: -1353424190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jerry parado 1_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58f5d91c6c077946820ae15e53b6ca6
+      internalID: 368965187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jerry parado 1_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223c8a57b45b8504987173592f47abfa
+      internalID: -1181743018
       vertices: []
       indices: 
       edges: []
@@ -225,11 +272,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jerry Direita_0: 2130289522
-      Jerry Direita_1: -389841786
-      Jerry Direita_2: 1821923876
-      Jerry Direita_3: 1744702356
-      Jerry Direita_4: 1542885216
+      Jerry parado 1_0: 1727768363
+      Jerry parado 1_1: 2130863929
+      Jerry parado 1_2: 1185500544
+      Jerry parado 1_3: -1353424190
+      Jerry parado 1_4: 368965187
+      Jerry parado 1_5: -1181743018
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

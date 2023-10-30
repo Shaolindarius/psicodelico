@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6040ed0cb83765d4284b599c83e12ec8
+guid: b4b2f0ffdd653504a99022101cfc8173
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,6 +94,32 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -110,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jerry Esquerda_0
+      name: jerry andando esquerda_0
       rect:
         serializedVersion: 2
         x: 3
@@ -124,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71dcb97dba63ad04f8bb0caf436fccd3
-      internalID: -1973754633
+      spriteID: b026eda65c074e5478dc9f18db07d0dc
+      internalID: -2030693828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jerry Esquerda_1
+      name: jerry andando esquerda_1
       rect:
         serializedVersion: 2
         x: 30
@@ -145,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc73597c2764e1246bf0f4cdd9bb2898
-      internalID: -1580956216
+      spriteID: 8c713be15a0321b4abe0fd8abd7fd8af
+      internalID: 2128459180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jerry Esquerda_2
+      name: jerry andando esquerda_2
       rect:
         serializedVersion: 2
         x: 57
@@ -166,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1838d4b2f74bef4ba9fdfb193742d38
-      internalID: 940113603
+      spriteID: 43e532bcb1387d548806c7427220a7c8
+      internalID: -1518394152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jerry Esquerda_3
+      name: jerry andando esquerda_3
       rect:
         serializedVersion: 2
         x: 30
@@ -187,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76c32df5d3d5b9646bc19f577400fa56
-      internalID: 517625695
+      spriteID: 9c059391204b8a94b8cf3997d43d82ca
+      internalID: -38352371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jerry Esquerda_4
+      name: jerry andando esquerda_4
       rect:
         serializedVersion: 2
         x: 57
@@ -208,8 +234,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0439619ec3ebd36488d14d425ebf1931
-      internalID: 1731108625
+      spriteID: 743830609972aa04185d02c7bfd34603
+      internalID: 1931561508
       vertices: []
       indices: 
       edges: []
@@ -225,11 +251,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jerry Esquerda_0: -1973754633
-      Jerry Esquerda_1: -1580956216
-      Jerry Esquerda_2: 940113603
-      Jerry Esquerda_3: 517625695
-      Jerry Esquerda_4: 1731108625
+      jerry andando esquerda_0: -2030693828
+      jerry andando esquerda_1: 2128459180
+      jerry andando esquerda_2: -1518394152
+      jerry andando esquerda_3: -38352371
+      jerry andando esquerda_4: 1931561508
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

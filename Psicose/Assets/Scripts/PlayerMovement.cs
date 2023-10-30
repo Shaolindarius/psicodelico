@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f; // Velocidade de movimento do jogador.
 
     private Rigidbody2D rb;
+    private Vector3 respawnPoint;
 
     Vector2 movement;
     public Animator animator;
@@ -14,16 +15,17 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        respawnPoint = transform.position;
     }
 
     void Update()
     {
-       movement.x = Input.GetAxisRaw("Horizontal");
-       movement.y = Input.GetAxisRaw("Vertical");
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-       animator.SetFloat("Horizontal", movement.x);
-       animator.SetFloat("Vertical", movement.y);
-       animator.SetFloat("Velocidade", movement.sqrMagnitude);
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Velocidade", movement.sqrMagnitude);
     }
 
     void FixedUpdate()
@@ -32,3 +34,4 @@ public class PlayerMovement : MonoBehaviour
 
     }
 }
+

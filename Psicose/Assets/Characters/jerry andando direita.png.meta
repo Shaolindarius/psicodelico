@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c503ce58d4ee194cb19de3dde8360da
+guid: 4137e081b2c942a42a29e78f33e87cb6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,6 +94,32 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -110,11 +136,53 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jerry Parado_0
+      name: jerry andando direita_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 35
+        x: 3
+        y: 45
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcebb25d306a6f94babbc4a0ee15e0b1
+      internalID: 1232334309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jerry andando direita_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 45
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2271314b8d7727647aa6a57b1cf0938b
+      internalID: -153612552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jerry andando direita_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 45
         width: 21
         height: 33
       alignment: 0
@@ -124,39 +192,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80144ce102e384d4ea6db2e87f1c8d87
-      internalID: -530475847
+      spriteID: a57e8ea55dc104e4782755c194dd8919
+      internalID: -150346075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jerry Parado_1
+      name: jerry andando direita_3
       rect:
         serializedVersion: 2
-        x: 24
-        y: 35
-        width: 21
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa5643ef0bc31c047866d88c89341bb1
-      internalID: 79860328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jerry Parado_2
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 35
+        x: 3
+        y: 5
         width: 21
         height: 33
       alignment: 0
@@ -166,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc8f8898413042342b20220a09932455
-      internalID: 761444863
+      spriteID: c96f8f9dcb257a84d9f50044174046c4
+      internalID: 1056676056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jerry Parado_3
+      name: jerry andando direita_4
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
+        x: 30
+        y: 5
         width: 21
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,50 +234,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a151aa2a37234a44938fb78cfad2c54
-      internalID: -657302507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jerry Parado_4
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 1
-        width: 21
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eee6a1fa698db104990f055998255685
-      internalID: -382424756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jerry Parado_5
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 1
-        width: 21
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 018ca293f54805a48a8e6d02b064d6da
-      internalID: 438455524
+      spriteID: 19553406656b22c4f9137f2d76f15df0
+      internalID: -1471995721
       vertices: []
       indices: 
       edges: []
@@ -246,12 +251,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jerry Parado_0: -530475847
-      Jerry Parado_1: 79860328
-      Jerry Parado_2: 761444863
-      Jerry Parado_3: -657302507
-      Jerry Parado_4: -382424756
-      Jerry Parado_5: 438455524
+      jerry andando direita_0: 1232334309
+      jerry andando direita_1: -153612552
+      jerry andando direita_2: -150346075
+      jerry andando direita_3: 1056676056
+      jerry andando direita_4: -1471995721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
