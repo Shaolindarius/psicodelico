@@ -184,21 +184,26 @@ public class Enemy_Follow : MonoBehaviour
 
 
     // função de dano recebido do inimigo
-    private void DamageHit()
-    {
+        public void DamageHit(int dano)
+        {
+        int hit = dano;
         if (this.life > 0)
         {
-            //possuir vida ainda;
-            this.life--;
-            ViewFeedBackDano(1);
+            this.life = life -hit;
+            ViewFeedBackDano(hit);
             this.lifeBar.Life = this.life;
-            StopMove();
-            if (this.life == 0)
+            //possuir vida ainda;
+
+            
+            
+            
+            if(this.life <= 0)
             {
                 this.lifeBar.HideBar();
-                //derrotado
-                GameObject.Destroy(this.gameObject,3f);
+                StopMove();
+                Destroy(this.gameObject, 1f);
             }
+       
         }
         
         

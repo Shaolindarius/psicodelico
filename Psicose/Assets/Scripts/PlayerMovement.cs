@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -11,9 +12,15 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     public Animator animator;
 
+    
+    public MoveDirection moveDirection;
+
+    
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        this.moveDirection = MoveDirection.Right;
     }
 
     void Update()
@@ -24,6 +31,15 @@ public class PlayerMovement : MonoBehaviour
        animator.SetFloat("Horizontal", movement.x);
        animator.SetFloat("Vertical", movement.y);
        animator.SetFloat("Velocidade", movement.sqrMagnitude);
+
+        if(movement.x>0)
+        {
+            this.moveDirection = MoveDirection.Right;
+            
+        }else if(movement.x<0)
+        {
+            this.moveDirection= MoveDirection.Left;
+        }
     }
 
     void FixedUpdate()
