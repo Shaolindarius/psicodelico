@@ -44,15 +44,18 @@ public class Fireball : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Destroy(this.gameObject);
+            Destroy(this.gameObject,0.1f);
+            
         }
     }
+
+
 
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            Destroy(gameObject,5f);
+            Destroy(this.gameObject,0.1f);
         }
     }
 

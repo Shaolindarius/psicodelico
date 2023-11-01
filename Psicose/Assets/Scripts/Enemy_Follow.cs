@@ -215,6 +215,13 @@ public class Enemy_Follow : MonoBehaviour
         Controlador.Instance.ViewDamage(dano, this.transform.position);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Fireball")){
+            DamageHit(15);
+        }
+    }
+
 
 
 }

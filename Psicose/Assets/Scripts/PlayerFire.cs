@@ -7,11 +7,15 @@ public class PlayerFire : MonoBehaviour
     [SerializeField]
     private GameObject fireball;
     [SerializeField]
-    private Transform fireballPos;
+    private Transform fireballPosR;
+    [SerializeField]
+    private Transform fireballPosL;
     [SerializeField]
     private float timeFireball;
     [SerializeField]
     private float timeFireballSpeed;
+    [SerializeField]
+    private PlayerMovement player;
 
     private float timer;
     // Start is called before the first frame update
@@ -38,7 +42,19 @@ public class PlayerFire : MonoBehaviour
 
     private void  FireballShoot()
     {
-        Instantiate(fireball,fireballPos.position,Quaternion.identity);
+
+        Transform attackPoint;
+        if (this.player.moveDirection == MoveDirection.Right)
+        {
+            attackPoint = this.fireballPosR;
+
+        }
+        else
+        {
+
+            attackPoint = this.fireballPosL;
+        }
+        Instantiate(fireball,attackPoint.position,Quaternion.identity);
         
     }
 }
