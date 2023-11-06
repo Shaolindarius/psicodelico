@@ -32,14 +32,19 @@ public class PlayerMovement : MonoBehaviour
        animator.SetFloat("Vertical", movement.y);
        animator.SetFloat("Velocidade", movement.sqrMagnitude);
 
+        Vector3 characterScale = transform.localScale;
         if(movement.x>0)
         {
+            characterScale.x = 10;
             this.moveDirection = MoveDirection.Right;
+
             
         }else if(movement.x<0)
         {
+            characterScale.x = -10;
             this.moveDirection= MoveDirection.Left;
         }
+        transform.localScale = characterScale;
     }
 
     void FixedUpdate()

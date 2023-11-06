@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
+    public Animator anim;
+    public bool isAttacking = false;
+    public static PlayerAttack instance;
+
     [SerializeField]
     public Transform attackPointR;
     [SerializeField]
@@ -18,13 +22,20 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField]
     private PlayerMovement player;
 
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    public void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Attack();
-        }
+    { 
+
+        Attack();
     }
 
 
@@ -55,8 +66,14 @@ public class PlayerAttack : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, this.attackRange);
     }
 
-    private void Attack()
+    public void Attack()
     {
+        if (Input.GetKeyDown(KeyCode.Space) && !isAttacking) 
+        {
+           isAttacking = true;
+        }
+
+
         Transform attackPoint;
         if(this.player.moveDirection == MoveDirection.Right)
         {
