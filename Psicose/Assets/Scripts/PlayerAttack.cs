@@ -77,12 +77,13 @@ public class PlayerAttack : MonoBehaviour
         Transform attackPoint;
         if(this.player.moveDirection == MoveDirection.Right)
         {
+            transform.localScale = new Vector3(1, 1, 1);
             attackPoint = this.attackPointR;
 
         }
         else
-        { 
-        
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
             attackPoint = this.attackPointL;
         }
 

@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: maluca andando_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 45
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd09607dd46cf1e4287fcfe5ac48a94c
+      internalID: 2057972068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maluca andando_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 45
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006d3b41444159a4baa87de25bfd943c
+      internalID: -1679664794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maluca andando_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 45
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87e691ce8c4ab6479dcfd8344acd896
+      internalID: 229925067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maluca andando_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 5
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1945664c9b88aa43879fcab72969423
+      internalID: -216342371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maluca andando_4
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 5
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4411cdfaaf11b246834812389b397b5
+      internalID: 957534837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      maluca andando_0: 2057972068
+      maluca andando_1: -1679664794
+      maluca andando_2: 229925067
+      maluca andando_3: -216342371
+      maluca andando_4: 957534837
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
