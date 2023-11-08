@@ -2514,6 +2514,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4342247585678523965, guid: 68e7097707aca7740b5a1fae4e0398e5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -362322586, guid: d387cb5673e210241a57c7c2ae4c78de, type: 3}
     - target: {fileID: 7575250370769332528, guid: 68e7097707aca7740b5a1fae4e0398e5, type: 3}
       propertyPath: m_Name
       value: Inimigo

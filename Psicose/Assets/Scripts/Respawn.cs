@@ -14,7 +14,7 @@ public class Respawn : MonoBehaviour
        if(other.CompareTag("Player"))
        {
             player.transform.position = RespawnPoint.transform.position;
-            Physics.SyncTransforms();
+            
        }
     }
 }
