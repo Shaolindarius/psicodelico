@@ -6,13 +6,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-  
     public float speed = 5f;
-    [SerializeField] public float dashSpeed = 5f;
-    [SerializeField] public float dashDuration = 2f;
-    [SerializeField] public float dashCooldown = 3f;
-
-    bool isDashing;
 
     public Rigidbody2D rb;
 
@@ -33,10 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if(isDashing)
-        {
-            return;
-        }
+       
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -57,20 +48,6 @@ public class PlayerMovement : MonoBehaviour
             this.moveDirection = MoveDirection.Left;
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            StartCoroutine(Dash());
-        }
-
-      
-    }
-
-    private IEnumerator Dash()
-    {
-        isDashing = true;
-        rb.velocity = new Vector2(movement.x * dashSpeed, movement.y * dashSpeed);
-        yield return new WaitForSeconds(dashDuration);
-        isDashing = false;
     }
     
 
