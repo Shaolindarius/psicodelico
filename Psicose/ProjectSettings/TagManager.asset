@@ -43,3 +43,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Bullet
+    uniqueID: 1387331923
+    locked: 0

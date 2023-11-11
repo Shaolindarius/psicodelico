@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
+<<<<<<< HEAD:Psicose/Assets/Scripts/PlayerAttack.cs
     public Animator anim;
     public bool isAttacking = false;
     public static PlayerAttack instance;
 
+=======
+>>>>>>> PlayerCombat:Psicose/Assets/Scripts/PlayerScript/PlayerAttack.cs
     [SerializeField]
     public Transform attackPointR;
     [SerializeField]
@@ -22,6 +25,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField]
     private PlayerMovement player;
 
+<<<<<<< HEAD:Psicose/Assets/Scripts/PlayerAttack.cs
     private void Awake()
     {
         instance = this;
@@ -36,6 +40,15 @@ public class PlayerAttack : MonoBehaviour
     { 
 
         Attack();
+=======
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Attack();
+        }
+>>>>>>> PlayerCombat:Psicose/Assets/Scripts/PlayerScript/PlayerAttack.cs
     }
 
 
@@ -66,6 +79,7 @@ public class PlayerAttack : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, this.attackRange);
     }
 
+<<<<<<< HEAD:Psicose/Assets/Scripts/PlayerAttack.cs
     public void Attack()
     {
         if (Input.GetKeyDown(KeyCode.Space) && !isAttacking) 
@@ -74,6 +88,10 @@ public class PlayerAttack : MonoBehaviour
         }
 
 
+=======
+    private void Attack()
+    {
+>>>>>>> PlayerCombat:Psicose/Assets/Scripts/PlayerScript/PlayerAttack.cs
         Transform attackPoint;
         if(this.player.moveDirection == MoveDirection.Right)
         {
