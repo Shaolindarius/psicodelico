@@ -6,7 +6,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public int MaxHealth = 100;
     public int CurrentHealth;
-    public Respawn RespawnScript;
+    
 
     // Start is called before the first frame update
     void Start()
