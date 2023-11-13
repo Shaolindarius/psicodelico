@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-<<<<<<< HEAD:Psicose/Assets/Scripts/PlayerAttack.cs
+
     public Animator anim;
     public bool isAttacking = false;
     public static PlayerAttack instance;
 
-=======
->>>>>>> PlayerCombat:Psicose/Assets/Scripts/PlayerScript/PlayerAttack.cs
+
     [SerializeField]
     public Transform attackPointR;
     [SerializeField]
@@ -25,7 +24,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField]
     private PlayerMovement player;
 
-<<<<<<< HEAD:Psicose/Assets/Scripts/PlayerAttack.cs
+
     private void Awake()
     {
         instance = this;
@@ -36,101 +35,97 @@ public class PlayerAttack : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    void Update()
-    { 
-
-        Attack();
-=======
-
-    void Update()
+    public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+
+       if (Input.GetKeyDown(KeyCode.Space))
+       {
+                Attack();
+       }
+
+
+
+        void OnDrawGizmos()
         {
-            Attack();
-        }
->>>>>>> PlayerCombat:Psicose/Assets/Scripts/PlayerScript/PlayerAttack.cs
-    }
-
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.white;
-        if (this.attackPointR != null)
-        {
-            Gizmos.DrawWireSphere(this.attackPointR.position, this.attackRange);
-        }
-
-        if (this.attackPointL != null)
-        {
-            Gizmos.DrawWireSphere(this.attackPointL.position, this.attackRange);
-        }
-
-
-        Transform attackPoint;
-        if (this.player.moveDirection == MoveDirection.Right)
-        {
-            attackPoint = this.attackPointR;
-        }
-        else
-        {
-            attackPoint = this.attackPointL;
-        }
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPoint.position, this.attackRange);
-    }
-
-<<<<<<< HEAD:Psicose/Assets/Scripts/PlayerAttack.cs
-    public void Attack()
-    {
-        if (Input.GetKeyDown(KeyCode.Space) && !isAttacking) 
-        {
-           isAttacking = true;
-        }
-
-
-=======
-    private void Attack()
-    {
->>>>>>> PlayerCombat:Psicose/Assets/Scripts/PlayerScript/PlayerAttack.cs
-        Transform attackPoint;
-        if(this.player.moveDirection == MoveDirection.Right)
-        {
-            transform.localScale = new Vector3(1, 1, 1);
-            attackPoint = this.attackPointR;
-
-        }
-        else
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-            attackPoint = this.attackPointL;
-        }
-
-
-
-        Collider2D[] collidersEnemy = Physics2D.OverlapCircleAll(attackPoint.position, this.attackRange,this.EnemyLayers);
-        if(collidersEnemy != null )
-        {
-            //verifica a existencia de inimigos na area do golpe.
-
-            foreach (Collider2D colliderEnemy in collidersEnemy)
+            Gizmos.color = Color.white;
+            if (this.attackPointR != null)
             {
-                Enemy_Follow enemy = colliderEnemy.GetComponent<Enemy_Follow>();
-                if (enemy != null)
+                Gizmos.DrawWireSphere(this.attackPointR.position, this.attackRange);
+            }
+
+            if (this.attackPointL != null)
+            {
+                Gizmos.DrawWireSphere(this.attackPointL.position, this.attackRange);
+            }
+
+
+            Transform attackPoint;
+            if (this.player.moveDirection == MoveDirection.Right)
+            {
+                attackPoint = this.attackPointR;
+            }
+            else
+            {
+                attackPoint = this.attackPointL;
+            }
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(attackPoint.position, this.attackRange);
+        }
+
+
+        void Attack()
+        {
+            if (Input.GetKeyDown(KeyCode.Space) && !isAttacking)
+            {
+                isAttacking = true;
+            }
+
+
+
+        }
+
+        {
+
+            Transform attackPoint;
+            if (this.player.moveDirection == MoveDirection.Right)
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+                attackPoint = this.attackPointR;
+
+            }
+            else
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+                attackPoint = this.attackPointL;
+            }
+
+
+
+            Collider2D[] collidersEnemy = Physics2D.OverlapCircleAll(attackPoint.position, this.attackRange, this.EnemyLayers);
+            if (collidersEnemy != null)
+            {
+                //verifica a existencia de inimigos na area do golpe.
+
+                foreach (Collider2D colliderEnemy in collidersEnemy)
                 {
-                    enemy.DamageHit(attackDamage);
+                    Enemy_Follow enemy = colliderEnemy.GetComponent<Enemy_Follow>();
+                    if (enemy != null)
+                    {
+                        enemy.DamageHit(attackDamage);
+                    }
                 }
             }
+
+            /*Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, EnemyLayers);
+
+            foreach (Collider2D enemy in hitEnemies)
+            {
+                enemy.GetComponent<Enemy_Follow>().DamageHit(attackDamage);
+            }
+            */
         }
 
-        /*Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, EnemyLayers);
 
-        foreach (Collider2D enemy in hitEnemies)
-        {
-            enemy.GetComponent<Enemy_Follow>().DamageHit(attackDamage);
-        }
-        */
+
     }
-
-
-
 }

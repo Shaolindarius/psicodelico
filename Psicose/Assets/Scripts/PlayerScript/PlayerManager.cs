@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour
+/*public class PlayerManager : MonoBehaviour
 {
 
     [SerializeField]
@@ -45,3 +45,4 @@ public class PlayerManager : MonoBehaviour
 
 
 }
+*/
