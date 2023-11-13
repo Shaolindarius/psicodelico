@@ -1,0 +1,1175 @@
+fileFormatVersion: 2
+guid: 150a31fc29ec862469e15713b41dca4d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: c4 tudinho_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55ba7acd3d02614fa71767f34c4ed5f
+      internalID: -1661944301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52676db0b8e78774b9e640ec0db34fed
+      internalID: -1021492363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92b461b8a457844a84e9025a4b1b5d8
+      internalID: 279284396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad59b74984b3af646a016a082a2488b2
+      internalID: -1816558330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfbb1ce2b42a5b4395f39573ec5e9ba
+      internalID: 1519329135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef92ff4e242154d4b87f5552f9a1e1bf
+      internalID: -1141540788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8e724e47125ff4c93e1cc2e44af6ce
+      internalID: -1437615337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208c6381658f4494fa6be7b9b08945be
+      internalID: 839556188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7755a4315f0364a933590b0656bb1f
+      internalID: 135610176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088d674cada47f445b6279b3512b117a
+      internalID: -823704722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7764824f19c10264daaeed4a0aa7530b
+      internalID: -433921581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fa33e5077185e45a6bf29bc0600344
+      internalID: -54641791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdd4b40d01e7434bab4b79ecabcec8d
+      internalID: -1358095076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3835c063f8b7057479c6da9b07f6afb6
+      internalID: -1547542941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5daa203028ddc49a2bf2022ac389b8
+      internalID: 903822704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436d16367e5fe164bbfc9b7ee12b55f8
+      internalID: 1390670258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7fcce22fe638348ba3d058c2a5b7fb
+      internalID: 1944815387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc8f35a66c29fa4ba48da66399054a3
+      internalID: -1411196422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0463f11c503a264cae99ff1206a9de0
+      internalID: 1232839136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a5ab3814ebd3d4db33a845b36fe2dd
+      internalID: -1545333762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b4ebd84d538764fa08b1ce14b2dc79
+      internalID: -1458362477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aebbd7f51531f24097c75aee1d17f71
+      internalID: 369109835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a934d51a840051b4d8597f322d9b46be
+      internalID: -156988287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_51
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dbd1ba275c0aa4494dba4255a6793e
+      internalID: -1915291558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3eb06dde6f20141b6481a3d43f649d
+      internalID: 1339960646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_53
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaefa8359122e7498eda0f714427a29
+      internalID: -2082921139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_64
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4cc059a622b4b4e89e2f51e3463f16
+      internalID: 1800075093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d86a5ef83c75f24a9fe5697ac74bec3
+      internalID: 1264932952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_67
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb0621d8e0265242b4e2447c1249c3b
+      internalID: -1494206168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979bb4f8f36ef8e48bd3a34cfc486ad2
+      internalID: 98825645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e66f07bb4d9847409332eeb930c9717
+      internalID: -2117154768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_82
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066019c4d5308954db4a4a0a6df7796f
+      internalID: 1013728130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_83
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4484c8edead0b0e4ea5790b4f857bb92
+      internalID: 399148803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c409d965114b5f04493e299fc6753c02
+      internalID: -920759883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_85
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8f72b0947c4be49882e2605571c958
+      internalID: -622691560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_86
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de5fbc85aa71c549b771276d6b26b9d
+      internalID: -1513037345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d55ea81f1191774eabd5928e662d14f
+      internalID: 1959535743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_112
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762fba818274d4a4e84b24081600bb06
+      internalID: 1383916740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc0dce68dd61c84b9633e40eb9af810
+      internalID: 1432415144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_115
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed99ea2a87479104ab37efaf8e46df20
+      internalID: 1252170500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71ee7ad14296a0429763c4d8cd196e9
+      internalID: 1362058295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_117
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3411ec7888844fa4392e5d1acb478fd3
+      internalID: 1692550732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c4 tudinho_118
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56194dcb15ea8b04a8993e4f814594b6
+      internalID: -1500972438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      c4 tudinho_0: -1661944301
+      c4 tudinho_1: -1021492363
+      c4 tudinho_10: -433921581
+      c4 tudinho_100: -1911796161
+      c4 tudinho_101: 280455327
+      c4 tudinho_102: 1959535743
+      c4 tudinho_103: -556798055
+      c4 tudinho_104: 1590990014
+      c4 tudinho_105: 440714730
+      c4 tudinho_106: -1409565527
+      c4 tudinho_107: 1456638638
+      c4 tudinho_108: -1651613780
+      c4 tudinho_109: 1950909388
+      c4 tudinho_11: -54641791
+      c4 tudinho_110: 396705959
+      c4 tudinho_111: -757552541
+      c4 tudinho_112: 1383916740
+      c4 tudinho_113: 1432415144
+      c4 tudinho_114: -2076209781
+      c4 tudinho_115: 1252170500
+      c4 tudinho_116: 1362058295
+      c4 tudinho_117: 1692550732
+      c4 tudinho_118: -1500972438
+      c4 tudinho_119: -229021459
+      c4 tudinho_12: -1358095076
+      c4 tudinho_120: -1618365093
+      c4 tudinho_121: 1546129299
+      c4 tudinho_122: 1922678102
+      c4 tudinho_123: -926396462
+      c4 tudinho_124: -373269666
+      c4 tudinho_125: 1633659698
+      c4 tudinho_126: 691802678
+      c4 tudinho_127: -1699744782
+      c4 tudinho_128: 564975977
+      c4 tudinho_129: -1341217224
+      c4 tudinho_13: -1547542941
+      c4 tudinho_130: -1327740888
+      c4 tudinho_131: -245567184
+      c4 tudinho_132: -1755000794
+      c4 tudinho_133: -1634585965
+      c4 tudinho_134: 1460092434
+      c4 tudinho_135: -664488060
+      c4 tudinho_136: -1350550904
+      c4 tudinho_137: 228166305
+      c4 tudinho_138: -1060586406
+      c4 tudinho_139: 2078939341
+      c4 tudinho_14: 903822704
+      c4 tudinho_140: 716577179
+      c4 tudinho_141: 1940398524
+      c4 tudinho_142: 2081178263
+      c4 tudinho_143: 1294383784
+      c4 tudinho_144: -1046240693
+      c4 tudinho_15: 1390670258
+      c4 tudinho_16: 1944815387
+      c4 tudinho_17: -1411196422
+      c4 tudinho_18: 257786616
+      c4 tudinho_19: 1232839136
+      c4 tudinho_2: 279284396
+      c4 tudinho_20: -1545333762
+      c4 tudinho_21: -1458362477
+      c4 tudinho_22: 193344203
+      c4 tudinho_23: -981550264
+      c4 tudinho_24: 107266813
+      c4 tudinho_25: -1607349400
+      c4 tudinho_26: 2053427278
+      c4 tudinho_27: 1285506395
+      c4 tudinho_28: 902326066
+      c4 tudinho_29: 983038211
+      c4 tudinho_3: -1816558330
+      c4 tudinho_30: 1559801128
+      c4 tudinho_31: 1325697454
+      c4 tudinho_32: -919258089
+      c4 tudinho_33: 597375564
+      c4 tudinho_34: 648765770
+      c4 tudinho_35: 1658943928
+      c4 tudinho_36: -197563225
+      c4 tudinho_37: 1150871170
+      c4 tudinho_38: -1268008238
+      c4 tudinho_39: -1557409065
+      c4 tudinho_4: 1519329135
+      c4 tudinho_40: 950598333
+      c4 tudinho_41: 2034515411
+      c4 tudinho_42: -141306952
+      c4 tudinho_43: -1151150615
+      c4 tudinho_44: -1886637049
+      c4 tudinho_45: 2005652676
+      c4 tudinho_46: -967200565
+      c4 tudinho_47: 750667259
+      c4 tudinho_48: 369109835
+      c4 tudinho_49: -156988287
+      c4 tudinho_5: -1141540788
+      c4 tudinho_50: 2050018355
+      c4 tudinho_51: -1915291558
+      c4 tudinho_52: 1339960646
+      c4 tudinho_53: -2082921139
+      c4 tudinho_54: 653631374
+      c4 tudinho_55: -1257963876
+      c4 tudinho_56: 1832594808
+      c4 tudinho_57: -1067072797
+      c4 tudinho_58: 1348310375
+      c4 tudinho_59: 84053816
+      c4 tudinho_6: -1437615337
+      c4 tudinho_60: 1755862318
+      c4 tudinho_61: -874124518
+      c4 tudinho_62: -1481689834
+      c4 tudinho_63: -339188819
+      c4 tudinho_64: 1800075093
+      c4 tudinho_65: -609104567
+      c4 tudinho_66: 1264932952
+      c4 tudinho_67: -1494206168
+      c4 tudinho_68: 98825645
+      c4 tudinho_69: -434707814
+      c4 tudinho_7: 839556188
+      c4 tudinho_70: -1461122330
+      c4 tudinho_71: 591790089
+      c4 tudinho_72: 907338759
+      c4 tudinho_73: -525242177
+      c4 tudinho_74: -4963952
+      c4 tudinho_75: 1072636999
+      c4 tudinho_76: 1166168149
+      c4 tudinho_77: -549535457
+      c4 tudinho_78: 1077441375
+      c4 tudinho_79: 1734193700
+      c4 tudinho_8: 135610176
+      c4 tudinho_80: -1231392168
+      c4 tudinho_81: -2117154768
+      c4 tudinho_82: 1013728130
+      c4 tudinho_83: 399148803
+      c4 tudinho_84: -920759883
+      c4 tudinho_85: -622691560
+      c4 tudinho_86: -1513037345
+      c4 tudinho_87: -1158048363
+      c4 tudinho_88: 222794134
+      c4 tudinho_89: -778431371
+      c4 tudinho_9: -823704722
+      c4 tudinho_90: 1807107309
+      c4 tudinho_91: -1113418753
+      c4 tudinho_92: 1551064196
+      c4 tudinho_93: 2053592864
+      c4 tudinho_94: -1459699794
+      c4 tudinho_95: 635691609
+      c4 tudinho_96: 813255785
+      c4 tudinho_97: -383891893
+      c4 tudinho_98: -330754806
+      c4 tudinho_99: 161048959
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
