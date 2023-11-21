@@ -4,28 +4,33 @@ using UnityEngine;
 
 public class DoctorCombo : MonoBehaviour
 {
+    private BossHealth bossHealth;
 
-public enum BossState
-{
-    Stage1,
-    Stage2,
-    Stage3
-}
+    public enum BossState
+    {
+        Stage1,
+        Stage2,
+        Stage3
+    }
 
-public class BossController : MonoBehaviour
-{
+    public bool isInvencible = false;
+    private float invencibleTimer = 0f;
+    private float invencibleCooldown = 10f;
+
     public BossState currentState = BossState.Stage1;
     public GameObject projectilePrefab;
-    public GameObject enemyPrefab;
-
-    public Transform[] spawnPoints;
+    public GameObject playerPrefab;
 
     public float attackCooldownStage1 = 2f;
     public float attackCooldownStage2 = 1.5f;
-    public float spawnCooldownStage3 = 3f;
+    public float superCooldownStage3 = 3f;
 
     private float attackTimer;
-    private float spawnTimer;
+
+    private void Start()
+    {
+       bossHealth = GetComponent<BossHealth>();
+    }
 
     private void Update()
     {
@@ -38,7 +43,7 @@ public class BossController : MonoBehaviour
                 AttackStage2();
                 break;
             case BossState.Stage3:
-                SpawnEnemies();
+                SuperDamage();
                 break;
             default:
                 break;
@@ -52,17 +57,14 @@ public class BossController : MonoBehaviour
         // Ataque normal no estágio 1
         if (attackTimer >= attackCooldownStage1)
         {
-            
+            //AttackCombo1();
 
             attackTimer = 0f;
         }
-        //if(BossHealth <= 75)
+        if (bossHealth.currentBossHealth <= 100)
         {
-          
+            ChangeState(BossState.Stage2);
         }
-        // Mudar para o próximo estágio quando necessário
-        // Exemplo: if (condição para mudar para o próximo estágio)
-        //     ChangeState(BossState.Stage2);
     }
 
     private void AttackStage2()
@@ -73,50 +75,50 @@ public class BossController : MonoBehaviour
         if (attackTimer >= attackCooldownStage2)
         {
             // Lógica do ataque com raios aqui
+            Instantiate(this.projectilePrefab, this.transform.position, Quaternion.identity);
             // Instantiate(projectilePrefab, transform.position, Quaternion.identity);
 
             // Lógica do ataque normal aqui
 
             attackTimer = 0f;
         }
-
-        // Mudar para o próximo estágio quando necessário
-        // Exemplo: if (condição para mudar para o próximo estágio)
-        //     ChangeState(BossState.Stage3);
-    }
-
-    private void SpawnEnemies()
-    {
-        spawnTimer += Time.deltaTime;
-
-        // Spawn de inimigos no estágio 3
-        if (spawnTimer >= spawnCooldownStage3)
+        if (bossHealth.currentBossHealth <= 50)
         {
-            // Lógica de spawn de inimigos aqui
-            // Exemplo: SpawnEnemy();
-
-            spawnTimer = 0f;
+            ChangeState(BossState.Stage3);
         }
-
-        // Voltar para um estágio anterior ou reiniciar quando necessário
-        // Exemplo: if (condição para voltar ao estágio anterior)
-        //     ChangeState(BossState.Stage2);
     }
 
-    private void ChangeState(BossState newState)
+    private void SuperDamage()
     {
+        attackTimer += Time.deltaTime;
+        if (attackTimer >= superCooldownStage3)
+        {
+            if (!isInvencible)
+            {
+                invencibleTimer += Time.deltaTime;
+                if (invencibleTimer >= invencibleCooldown)
+                {
+                    isInvencible = true;
+                    invencibleTimer = 0f;
+                }
+            }
+            if (isInvencible)
+            {
+                invencibleTimer += Time.deltaTime;
+                if (invencibleCooldown >= invencibleTimer)
+                {
+                    isInvencible = false;
+                    invencibleTimer = 0f;
+                }
+            }
+
+        }
+    }
+
+     private void ChangeState(BossState newState)
+     {
         currentState = newState;
-        // Lógica de transição entre estados, se necessário
-    }
-
-    private void SpawnEnemy()
-    {
-        if (spawnPoints.Length > 0 && enemyPrefab != null)
-        {
-            Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
-            Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
-        }
-    }
+        // Lógica de transição entre estados somente se necessario
+     }
 }
 
-}
