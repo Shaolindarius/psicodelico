@@ -18,7 +18,7 @@ public class DoctorCombo : MonoBehaviour
     private float invencibleCooldown = 10f;
 
     public BossState currentState = BossState.Stage1;
-    public GameObject projectilePrefab;
+    //public GameObject projectilePrefab;
     public GameObject playerPrefab;
 
     public float attackCooldownStage1 = 2f;
@@ -57,7 +57,7 @@ public class DoctorCombo : MonoBehaviour
         // Ataque normal no estágio 1
         if (attackTimer >= attackCooldownStage1)
         {
-            //AttackCombo1();
+            
 
             attackTimer = 0f;
         }
@@ -75,7 +75,7 @@ public class DoctorCombo : MonoBehaviour
         if (attackTimer >= attackCooldownStage2)
         {
             // Lógica do ataque com raios aqui
-            Instantiate(this.projectilePrefab, this.transform.position, Quaternion.identity);
+            //Instantiate(this.projectilePrefab, this.transform.position, Quaternion.identity);
             // Instantiate(projectilePrefab, transform.position, Quaternion.identity);
 
             // Lógica do ataque normal aqui
