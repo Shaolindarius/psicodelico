@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d9b74b3dd32b2384d86d20eb97a901ee
+guid: fafdced90fab81449891272a981779fc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_0"
+      name: tudo itens + quarto_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 482
-        width: 47
-        height: 59
+        x: 25
+        y: 501
+        width: 51
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adef28ca96f2a3444978b81603511c27
-      internalID: -801354337
+      spriteID: 4fe8681e01942fb4b8077b582cd0f4d6
+      internalID: 171588065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_1"
+      name: tudo itens + quarto_1
       rect:
         serializedVersion: 2
-        x: 120
-        y: 482
-        width: 47
-        height: 59
+        x: 104
+        y: 500
+        width: 51
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb3606614e8958147aefca4fe045feb2
-      internalID: -508608942
+      spriteID: 6c77a6fe670e53e49b6260d979af54f7
+      internalID: -1520591558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_2"
+      name: tudo itens + quarto_2
       rect:
         serializedVersion: 2
-        x: 200
-        y: 483
-        width: 47
-        height: 59
+        x: 184
+        y: 500
+        width: 51
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59518584fb71e7a4cb3d8c1245075e0b
-      internalID: -1461331146
+      spriteID: 83ace359e71bb1c49b6b4fbee54c679e
+      internalID: -1643894475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_3"
+      name: tudo itens + quarto_3
       rect:
         serializedVersion: 2
-        x: 280
-        y: 482
-        width: 47
-        height: 59
+        x: 264
+        y: 500
+        width: 51
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c273835b25c8564595cfdbe9150ca45
-      internalID: -401401106
+      spriteID: 983e1583983bb164e8db22ec563633a3
+      internalID: -900735425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_4"
+      name: tudo itens + quarto_4
       rect:
         serializedVersion: 2
-        x: 363
-        y: 483
+        x: 347
+        y: 497
         width: 43
-        height: 59
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab5be920d2e6f2049b2c11680f904baf
-      internalID: 2009634578
+      spriteID: 23bb816645c5243498d17440e115a528
+      internalID: 1723736861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_5"
+      name: tudo itens + quarto_5
       rect:
         serializedVersion: 2
-        x: 444
-        y: 483
+        x: 428
+        y: 503
         width: 43
-        height: 59
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47840df1735ddbd40a1a3ba576616af0
-      internalID: 1039204428
+      spriteID: e31765eefea439a40840cc5c286e7a7b
+      internalID: -31578445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_6"
+      name: tudo itens + quarto_6
       rect:
         serializedVersion: 2
-        x: 524
-        y: 483
+        x: 506
+        y: 497
         width: 43
-        height: 59
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ca12c7b7275f994e9e2460e71fcd837
-      internalID: -1131992025
+      spriteID: 2019062d3ad166147a12855b4e7e334c
+      internalID: 215688126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_7"
+      name: tudo itens + quarto_7
       rect:
         serializedVersion: 2
-        x: 728
-        y: 224
-        width: 272
-        height: 320
+        x: 587
+        y: 497
+        width: 43
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,83 +271,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 868fee93158f9064eb2e904153b55e28
-      internalID: 1885126794
+      spriteID: 19310fc0651e48448a6bedd03774d50c
+      internalID: -478591992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_8"
+      name: tudo itens + quarto_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 400
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 740
+        y: 468
+        width: 69
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5000009, y: 0.33863917}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d697d1a98835f604b9050e0785222d21
-      internalID: 1499916230
+      spriteID: b8dc40df7bea78645bf15c2f67d20e76
+      internalID: 752856447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_9"
+      name: tudo itens + quarto_9
       rect:
         serializedVersion: 2
-        x: 112
-        y: 400
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 836
+        y: 469
+        width: 71
+        height: 88
+      alignment: 9
+      pivot: {x: 0.52379686, y: 0.28880727}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73c5f9604c70e2c44ad53ae0ebab2c77
-      internalID: -1967511803
+      spriteID: 4e72eb2808f33bd42838a2febd6f1c61
+      internalID: 1465075221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_10"
+      name: tudo itens + quarto_10
       rect:
         serializedVersion: 2
-        x: 192
-        y: 400
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 932
+        y: 469
+        width: 71
+        height: 89
+      alignment: 9
+      pivot: {x: 0.48810244, y: 0.29118022}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d8523cf7bca7ad4db7f7820229983ef
-      internalID: -1952942400
+      spriteID: 54980a2537a9faf4ca618867971ea4ce
+      internalID: 267772759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_11"
+      name: tudo itens + quarto_11
       rect:
         serializedVersion: 2
-        x: 352
-        y: 400
-        width: 64
-        height: 64
+        x: 265
+        y: 417
+        width: 44
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,18 +355,60 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca739ae92b70fbb459ede1b251c0e6e2
-      internalID: 989343570
+      spriteID: 39c899e87f57f3641a2583172255014d
+      internalID: 2062310543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_13"
+      name: tudo itens + quarto_12
       rect:
         serializedVersion: 2
         x: 432
-        y: 400
+        y: 416
+        width: 11
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18300accc3f9f3c4ba6bcb84ea437b48
+      internalID: -674800912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo itens + quarto_13
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 466
+        width: 64
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00267574e9873174d8b5eb41adfb32b4
+      internalID: 221062229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo itens + quarto_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 416
         width: 64
         height: 64
       alignment: 0
@@ -376,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f80a0721c82b5fa4a85ec2388466cfb2
-      internalID: -263969859
+      spriteID: 64bb7119432b8534cbbe37de81e1fe7c
+      internalID: -1170723986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_14"
+      name: tudo itens + quarto_15
       rect:
         serializedVersion: 2
-        x: 512
-        y: 400
-        width: 64
-        height: 64
+        x: 18
+        y: 417
+        width: 62
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,20 +439,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66b2ab061f31cec46b853c869907db1e
-      internalID: -1573861576
+      spriteID: d2ba8137fc00fc64a95c148c1ca2b942
+      internalID: -547587579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_15"
+      name: tudo itens + quarto_16
       rect:
         serializedVersion: 2
-        x: 592
-        y: 400
-        width: 64
-        height: 64
+        x: 97
+        y: 417
+        width: 62
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,19 +460,124 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 921bb2d8f6a881f46aa3a6b5f3e619ea
-      internalID: 1128247355
+      spriteID: 5e4a26a2d3fdba54c9e786e9f21ea0bd
+      internalID: -1546224609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_16"
+      name: tudo itens + quarto_17
       rect:
         serializedVersion: 2
-        x: 47
-        y: 322
-        width: 34
+        x: 195
+        y: 418
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b64f8e710107c549ac4cbe48920c9a3
+      internalID: -946231395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo itens + quarto_18
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 437
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158f243c959dfa84481bd3cf86709cd2
+      internalID: 856660184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo itens + quarto_19
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 356
+        width: 77
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32165936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd7149a1f098d0479c71fcfaff9a95e
+      internalID: -113666584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo itens + quarto_20
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 353
+        width: 58
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.30016205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5839916fc0acf364da67375924fe1e70
+      internalID: 1638556854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo itens + quarto_21
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 351
+        width: 53
+        height: 97
+      alignment: 9
+      pivot: {x: 0.46812236, y: 0.31711194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7848053c07a435a48a705bee40b89539
+      internalID: 169471967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo itens + quarto_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 337
+        width: 56
         height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -439,19 +586,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5abe5f9a3d214643a7fd91e3a68df25
-      internalID: 1161449623
+      spriteID: aa84778313e14a043a6306e6207a678c
+      internalID: 61163334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_17"
+      name: tudo itens + quarto_23
       rect:
         serializedVersion: 2
-        x: 128
-        y: 322
-        width: 34
+        x: 99
+        y: 338
+        width: 56
         height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -460,20 +607,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a2388074392a5341a05ab5f0101cad1
-      internalID: -953342844
+      spriteID: 348238fb91749e84cbaada7216f2844e
+      internalID: 160572915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_18"
+      name: tudo itens + quarto_24
       rect:
         serializedVersion: 2
-        x: 207
-        y: 321
-        width: 35
-        height: 62
+        x: 204
+        y: 342
+        width: 10
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,125 +628,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33e251a27ae0b534b986a2661afeba33
-      internalID: -288522418
+      spriteID: faf5d7d3e555f2f40b4c7863b6c5dbc7
+      internalID: -1777593090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_19"
+      name: tudo itens + quarto_25
       rect:
         serializedVersion: 2
-        x: 286
-        y: 321
-        width: 35
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19645a736ba925c42912295e6bcfe294
-      internalID: 1719743855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_20"
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 370
-        width: 44
-        height: 13
-      alignment: 9
-      pivot: {x: 0.5, y: 1.5397245}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f08ac11080b17f44e8a8adef77b0991d
-      internalID: 417295930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_21"
-      rect:
-        serializedVersion: 2
-        x: 443
-        y: 371
-        width: 44
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95035bda89787d340bb8bbf75fbaa9a9
-      internalID: -487917248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_22"
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 321
-        width: 44
-        height: 48
-      alignment: 9
-      pivot: {x: 0.48077947, y: 1.2916979}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27734e2125549a6478ba58768051fa02
-      internalID: 1618691771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_23"
-      rect:
-        serializedVersion: 2
-        x: 443
-        y: 322
-        width: 44
-        height: 48
-      alignment: 9
-      pivot: {x: 0.480801, y: 1.2919775}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 411ea0360610cd34aaca555f78c37598
-      internalID: -2081467871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_24"
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 128
+        x: 256
+        y: 340
         width: 64
-        height: 64
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,20 +649,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b83b9cf15112a54fbe1019d2dbc25d8
-      internalID: 801861136
+      spriteID: 7260d602a802697409f09e03186e5727
+      internalID: 1797036872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_25"
+      name: tudo itens + quarto_26
       rect:
         serializedVersion: 2
-        x: 848
-        y: 128
-        width: 64
-        height: 64
+        x: 741
+        y: 264
+        width: 71
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,50 +670,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba755e3b1ab11034a978864d86ddede9
-      internalID: -1438679084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_26"
-      rect:
-        serializedVersion: 2
-        x: 928
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 137c84a9f5d5d9f4f934cd70b42803a3
-      internalID: -16357718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "tudo at\xE9 ent\xE3o_12"
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 400
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 992bcfe7d20c94542af0db64cdd0844d
-      internalID: 749187794
+      spriteID: 414e9d380dba1a34ca44370aa0b5c46a
+      internalID: 301387330
       vertices: []
       indices: 
       edges: []
@@ -687,33 +687,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "tudo at\xE9 ent\xE3o_0": -801354337
-      "tudo at\xE9 ent\xE3o_1": -508608942
-      "tudo at\xE9 ent\xE3o_10": -1952942400
-      "tudo at\xE9 ent\xE3o_11": 989343570
-      "tudo at\xE9 ent\xE3o_12": 749187794
-      "tudo at\xE9 ent\xE3o_13": -263969859
-      "tudo at\xE9 ent\xE3o_14": -1573861576
-      "tudo at\xE9 ent\xE3o_15": 1128247355
-      "tudo at\xE9 ent\xE3o_16": 1161449623
-      "tudo at\xE9 ent\xE3o_17": -953342844
-      "tudo at\xE9 ent\xE3o_18": -288522418
-      "tudo at\xE9 ent\xE3o_19": 1719743855
-      "tudo at\xE9 ent\xE3o_2": -1461331146
-      "tudo at\xE9 ent\xE3o_20": 417295930
-      "tudo at\xE9 ent\xE3o_21": -487917248
-      "tudo at\xE9 ent\xE3o_22": 1618691771
-      "tudo at\xE9 ent\xE3o_23": -2081467871
-      "tudo at\xE9 ent\xE3o_24": 801861136
-      "tudo at\xE9 ent\xE3o_25": -1438679084
-      "tudo at\xE9 ent\xE3o_26": -16357718
-      "tudo at\xE9 ent\xE3o_3": -401401106
-      "tudo at\xE9 ent\xE3o_4": 2009634578
-      "tudo at\xE9 ent\xE3o_5": 1039204428
-      "tudo at\xE9 ent\xE3o_6": -1131992025
-      "tudo at\xE9 ent\xE3o_7": 1885126794
-      "tudo at\xE9 ent\xE3o_8": 1499916230
-      "tudo at\xE9 ent\xE3o_9": -1967511803
+      tudo itens + quarto_0: 171588065
+      tudo itens + quarto_1: -1520591558
+      tudo itens + quarto_10: 267772759
+      tudo itens + quarto_11: 2062310543
+      tudo itens + quarto_12: -674800912
+      tudo itens + quarto_13: 221062229
+      tudo itens + quarto_14: -1170723986
+      tudo itens + quarto_15: -547587579
+      tudo itens + quarto_16: -1546224609
+      tudo itens + quarto_17: -946231395
+      tudo itens + quarto_18: 856660184
+      tudo itens + quarto_19: -113666584
+      tudo itens + quarto_2: -1643894475
+      tudo itens + quarto_20: 1638556854
+      tudo itens + quarto_21: 169471967
+      tudo itens + quarto_22: 61163334
+      tudo itens + quarto_23: 160572915
+      tudo itens + quarto_24: -1777593090
+      tudo itens + quarto_25: 1797036872
+      tudo itens + quarto_26: 301387330
+      tudo itens + quarto_3: -900735425
+      tudo itens + quarto_4: 1723736861
+      tudo itens + quarto_5: -31578445
+      tudo itens + quarto_6: 215688126
+      tudo itens + quarto_7: -478591992
+      tudo itens + quarto_8: 752856447
+      tudo itens + quarto_9: 1465075221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
