@@ -10,17 +10,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-<<<<<<< HEAD
   - 
   - Water
   - UI
   - Player
-=======
-  - Player
-  - Water
-  - UI
-  - 
->>>>>>> oquetaacontecendo
   - Enemy
   - 
   - 
@@ -50,9 +43,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-<<<<<<< HEAD
   - name: Bullet
     uniqueID: 1387331923
     locked: 0
-=======
->>>>>>> oquetaacontecendo
