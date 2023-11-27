@@ -5,6 +5,7 @@ using UnityEngine;
 public class DoctorCombo : MonoBehaviour
 {
     private BossHealth bossHealth;
+    //private PlayerManager playerManager;
 
     public enum BossState
     {
@@ -16,10 +17,16 @@ public class DoctorCombo : MonoBehaviour
     public bool isInvencible = false;
     private float invencibleTimer = 0f;
     private float invencibleCooldown = 10f;
+    
+    
 
     public BossState currentState = BossState.Stage1;
-    //public GameObject projectilePrefab;
     public GameObject playerPrefab;
+
+    [SerializeField]
+    public GameObject Waveprefab;
+
+    public string enemyTag = "Enemy";
 
     public float attackCooldownStage1 = 2f;
     public float attackCooldownStage2 = 1.5f;
@@ -50,6 +57,19 @@ public class DoctorCombo : MonoBehaviour
         }
     }
 
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag(enemyTag))
+        {
+            //Playermanager playermanager = collision.GetComponent<Playermanager>();
+           // if (playermanager != null)
+           // {
+               //playermanager.TakeDamager(5);
+           // }
+        }
+    }
+
     private void AttackStage1()
     {
         attackTimer += Time.deltaTime;
@@ -57,9 +77,7 @@ public class DoctorCombo : MonoBehaviour
         // Ataque normal no estágio 1
         if (attackTimer >= attackCooldownStage1)
         {
-            
-
-            attackTimer = 0f;
+            attackTimer = 2f;
         }
         if (bossHealth.currentBossHealth <= 100)
         {
@@ -75,8 +93,7 @@ public class DoctorCombo : MonoBehaviour
         if (attackTimer >= attackCooldownStage2)
         {
             // Lógica do ataque com raios aqui
-            //Instantiate(this.projectilePrefab, this.transform.position, Quaternion.identity);
-            // Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+            Instantiate(this.Waveprefab, this.transform.position, Quaternion.identity);
 
             // Lógica do ataque normal aqui
 

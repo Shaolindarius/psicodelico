@@ -22,14 +22,14 @@ public class PlayerManager : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            TakeDamager(5);
-        }
+       // if (collision.compareTag("Enemy"))
+       // {
+          //  TakeDamager(5);
+       // }
     }
-    public void TakeDamager(int mobhit)
+    public void TakeDamager(int enemy)
     {
-        life -= mobhit;
+        life -= enemy;
         if(life <= 0)
         {
             Player.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
