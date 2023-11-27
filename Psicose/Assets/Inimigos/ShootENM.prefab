@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5822639669042312708}
   - component: {fileID: 8132163775619793110}
   - component: {fileID: 877876315393391884}
+  - component: {fileID: -8444447441057596758}
   m_Layer: 0
   m_Name: ShootENM
   m_TagString: Untagged
@@ -140,6 +141,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &-8444447441057596758
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987126870919547932}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5ee3445e62485d0479e03ae5923d95c5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2795757788860070490
 GameObject:
   m_ObjectHideFlags: 0
