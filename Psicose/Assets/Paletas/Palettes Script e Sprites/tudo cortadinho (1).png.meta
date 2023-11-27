@@ -1,0 +1,1425 @@
+fileFormatVersion: 2
+guid: b55eb821c07a15f4db27c5c338a4e2a7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 500
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd923f291cdda6d429144b911373d426
+      internalID: -1666621458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 500
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0fa22e8a27b5b4f917835f567ddf92
+      internalID: 993781889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 500
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9ddc04598455e4eb90868acfa36fa7
+      internalID: -34249751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 500
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4482aace443ce488ff7690e213edbf
+      internalID: 1374087096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_4
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 500
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ae3b4dbd7b1224e925fab9a4f4130b
+      internalID: 1608998132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_5
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 502
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c17618056405e4e8a3a598d78ccf9f
+      internalID: -2009092347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 22
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0435cbb735318e34a88c3c306c928cb1
+      internalID: -192433249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 501
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7bf692de61de3498812e46c8ae89ff
+      internalID: 584038104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_8
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 502
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b61493fc73a7f4b96d0de688484e2b
+      internalID: -1644100748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 420
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660e79b962328354480a55284a28c87d
+      internalID: 423595096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 420
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d615eda960f95f41a747de7e854851e
+      internalID: -101284555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 420
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2417644922e7e8b40b7c890f627470ce
+      internalID: 1007775662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_12
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 420
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f90970d1dd745f4595676faefd0b560
+      internalID: -827654358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_13
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 420
+        width: 5
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1bad87c9145784ca08c8cbbf181916
+      internalID: 907500321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_14
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 433
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93fe8985d287fd4b898173ee6092108
+      internalID: -2094749570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_15
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 439
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995cf706625fc9249b822a7e038f8051
+      internalID: -389740522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_16
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 433
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b13457f484c4248ad3bfb3fedbc068
+      internalID: -1809224042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_17
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 431
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b68ccd172c48a47afb17ab606c2726
+      internalID: 1335498022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_18
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 430
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0490bb848633248b5783abc800ce70
+      internalID: -585532144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_19
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deea04f9d20d5441bd324807ed6be42
+      internalID: -236188283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a7b74a140d95d46b0e8fe1ebe7ad55
+      internalID: 468380202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_21
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3130f4b7226b64a9b9c2a5e14fa3d2
+      internalID: 1883496712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7307c2fa6644a3a459b5ecdb982bc769
+      internalID: -812879579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_23
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6845a1708c53074eab86cebaa32ea5c
+      internalID: 2141087359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_24
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd732d0a6616bee4f86b0b57e717bc97
+      internalID: 1006272722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_25
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29302e3f9c0f394383220b6cc378823
+      internalID: 1279737016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_26
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 311
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddc4bff9271f1047b6b01b634136251
+      internalID: 1791913918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_27
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af7ac9fac5f07c418da2c5f9dc7da22
+      internalID: -1433509818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_28
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 263
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c7416883397034d95b4c1862229c49
+      internalID: 1227059561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_29
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 262
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2dfa7f90c8fcb49bedc80cdb8902f2
+      internalID: 176972918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 262
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83c66c113560af41943156349ccc608
+      internalID: -595501345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_31
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 262
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8655887920181f649951a3bdc125737a
+      internalID: -964662525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_32
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 262
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef08e9f6a7522ee4f8307cd5ae093c7d
+      internalID: 135692141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_33
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 262
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd8ed01765fd454d9a5b931c2a04cab
+      internalID: 699121798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_34
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 241
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1461ccba827e44b8d4d723e869d887
+      internalID: -2013849177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_41
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 197
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110d5cb010d526647adb27a454d95049
+      internalID: -369592246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_42
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a87e97830985de48a719df8f2db0831
+      internalID: 1171618947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_43
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5c850b720bea44d8419df570f43e57
+      internalID: -1616131685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549c76846eda3ef48b89baf543ffb3ca
+      internalID: -1761736429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_45
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501bfc72e258b3b4796e1b6ce54ad6f9
+      internalID: -1894665734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_46
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cff2c3a978d447418fa46b38287cd2e
+      internalID: -1433025468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_47
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c6de4c4862e4d449ec9d240c4f8ec4
+      internalID: 263946861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_48
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 168
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e894d79f097bcd49bf24d68e632f1ca
+      internalID: -756485270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_49
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5e6dd220b7b9d42bb3fd1cbfb866f7
+      internalID: 2109532396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_50
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fc4aeec256e3b44a26f85da88f91f1
+      internalID: -1679054561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_51
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cf6d093da169649ab2c6ec48d380cf
+      internalID: 1382047410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_52
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a5b21a77b0e98448d05f213658878d
+      internalID: 532175188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_53
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520d94a6c8b01784e9f5c4fcbf8da462
+      internalID: -1982293680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_54
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6498ed0f0773e3a4cac609bf0b8e5db4
+      internalID: 2052811122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_55
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2b5148ed375ca4eb0ab4ff97870312
+      internalID: -2075115924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_68
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 63
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aba1fbb6d24ae04da00d0cf127e034b
+      internalID: -243139378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_69
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 63
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86e1d70366555d46b66381a2a17402c
+      internalID: 776425158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_70
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 63
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a792252fcc2b2ba4da624df07e0f60e3
+      internalID: -507017304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_71
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 63
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab515374b5c2654ca55cc69578e6594
+      internalID: -527686070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_72
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 63
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e415c93b4ed244c955a6950c8be603
+      internalID: 588744486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_73
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 63
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21aa853e0e6fc14bb3afe7380831e32
+      internalID: -1317324010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudo cortadinho (1)_74
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353dca2e61a2d574f80ad05aab46154f
+      internalID: -1153320448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tudo cortadinho (1)_0: -1666621458
+      tudo cortadinho (1)_1: 993781889
+      tudo cortadinho (1)_10: -101284555
+      tudo cortadinho (1)_11: 1007775662
+      tudo cortadinho (1)_12: -827654358
+      tudo cortadinho (1)_13: 907500321
+      tudo cortadinho (1)_14: -2094749570
+      tudo cortadinho (1)_15: -389740522
+      tudo cortadinho (1)_16: -1809224042
+      tudo cortadinho (1)_17: 1335498022
+      tudo cortadinho (1)_18: -585532144
+      tudo cortadinho (1)_19: -236188283
+      tudo cortadinho (1)_2: -34249751
+      tudo cortadinho (1)_20: 468380202
+      tudo cortadinho (1)_21: 1883496712
+      tudo cortadinho (1)_22: -812879579
+      tudo cortadinho (1)_23: 2141087359
+      tudo cortadinho (1)_24: 1006272722
+      tudo cortadinho (1)_25: 1279737016
+      tudo cortadinho (1)_26: 1791913918
+      tudo cortadinho (1)_27: -1433509818
+      tudo cortadinho (1)_28: 1227059561
+      tudo cortadinho (1)_29: 176972918
+      tudo cortadinho (1)_3: 1374087096
+      tudo cortadinho (1)_30: -595501345
+      tudo cortadinho (1)_31: -964662525
+      tudo cortadinho (1)_32: 135692141
+      tudo cortadinho (1)_33: 699121798
+      tudo cortadinho (1)_34: -2013849177
+      tudo cortadinho (1)_35: 1969913546
+      tudo cortadinho (1)_36: 122773063
+      tudo cortadinho (1)_37: -244110921
+      tudo cortadinho (1)_38: 987949296
+      tudo cortadinho (1)_39: -1716352886
+      tudo cortadinho (1)_4: 1608998132
+      tudo cortadinho (1)_40: 334385384
+      tudo cortadinho (1)_41: -369592246
+      tudo cortadinho (1)_42: 1171618947
+      tudo cortadinho (1)_43: -1616131685
+      tudo cortadinho (1)_44: -1761736429
+      tudo cortadinho (1)_45: -1894665734
+      tudo cortadinho (1)_46: -1433025468
+      tudo cortadinho (1)_47: 263946861
+      tudo cortadinho (1)_48: -756485270
+      tudo cortadinho (1)_49: 2109532396
+      tudo cortadinho (1)_5: -2009092347
+      tudo cortadinho (1)_50: -1679054561
+      tudo cortadinho (1)_51: 1382047410
+      tudo cortadinho (1)_52: 532175188
+      tudo cortadinho (1)_53: -1982293680
+      tudo cortadinho (1)_54: 2052811122
+      tudo cortadinho (1)_55: -2075115924
+      tudo cortadinho (1)_56: 489220124
+      tudo cortadinho (1)_57: 2076747755
+      tudo cortadinho (1)_58: 1143222010
+      tudo cortadinho (1)_59: 796238920
+      tudo cortadinho (1)_6: -192433249
+      tudo cortadinho (1)_60: 2085962422
+      tudo cortadinho (1)_61: -1160311796
+      tudo cortadinho (1)_62: 24249615
+      tudo cortadinho (1)_63: 1572072747
+      tudo cortadinho (1)_64: 1342582017
+      tudo cortadinho (1)_65: 2142770341
+      tudo cortadinho (1)_66: -844673019
+      tudo cortadinho (1)_67: 1402168458
+      tudo cortadinho (1)_68: -243139378
+      tudo cortadinho (1)_69: 776425158
+      tudo cortadinho (1)_7: 584038104
+      tudo cortadinho (1)_70: -507017304
+      tudo cortadinho (1)_71: -527686070
+      tudo cortadinho (1)_72: 588744486
+      tudo cortadinho (1)_73: -1317324010
+      tudo cortadinho (1)_74: -1153320448
+      tudo cortadinho (1)_8: -1644100748
+      tudo cortadinho (1)_9: 423595096
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

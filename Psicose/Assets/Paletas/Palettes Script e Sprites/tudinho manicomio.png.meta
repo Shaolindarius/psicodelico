@@ -1,0 +1,1121 @@
+fileFormatVersion: 2
+guid: 58d9b832eee7f694381e4adc2f58893f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tudinho manicomio_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 485
+        width: 147
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e014c723b6a7f4cb5fd1b1bb6eb592
+      internalID: -1687493569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 386
+        width: 41
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4767eb114f01a7844b4876d9b46d837a
+      internalID: -152781217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 387
+        width: 41
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aee7316c8f0a846af6e4bded7e6994
+      internalID: 1110918372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 385
+        width: 60
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98183f2214a2e7c49bea245af68d130d
+      internalID: -649760362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_4
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 385
+        width: 60
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8060280c055e4846afa753fa4db4370
+      internalID: 230805675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_5
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 406
+        width: 41
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d011c8cbc703ef44894c9c1d9d97c83b
+      internalID: -942306068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 406
+        width: 41
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14a123e5602d874dbcd9cd09600f215
+      internalID: -979205526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_7
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 402
+        width: 85
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dd537bb0d95f447af20ef5472623d5
+      internalID: -959031702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_8
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 402
+        width: 85
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86be22e57156be54bb59930e1a448fdb
+      internalID: -1603731351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_9
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 490
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc74bc7742ee8c4291d9366dee5481c
+      internalID: 1814116302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 388
+        width: 147
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f335079c11bd828459d9e4de5cc174a5
+      internalID: -88498522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_11
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 415
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7335299a9a02e1448bd079bfa10adfb4
+      internalID: -1989806144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_12
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 414
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37f327a725650041a48db93fca580ed
+      internalID: 1213100543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 306
+        width: 123
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b408742eab9c3694cb21b5d2110f6a90
+      internalID: 286274936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_14
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 261
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8bd943d54440348950b768d7c0902c
+      internalID: -94947678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_15
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 261
+        width: 44
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f552fce2d97e04419c3efb6cbd4ba27
+      internalID: -569579080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_16
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 243
+        width: 74
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfe119f1cecd4b4aad0bafd77458803
+      internalID: 314839766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_17
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 243
+        width: 60
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b38fd7228d05a429cbc66c7aac431a
+      internalID: 582637067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_18
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 256
+        width: 43
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd9e0c798836cf4881f557ddf63cdfa
+      internalID: -948449459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_19
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 256
+        width: 41
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018d2d107df6abe4e9b46adf1d9757ac
+      internalID: 1261883600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_20
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 320
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c00af8e6150bd644acfc6cbf53813a1
+      internalID: -1738651432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_21
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 322
+        width: 87
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab690f2077aa5f479d8c69a7afade2c
+      internalID: -164273022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_22
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 322
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ceff3b674529d4bb22e12b8a41c482
+      internalID: 1159790517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_23
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 328
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc223f1306898e40b3dcbe745dd7dbf
+      internalID: -456616529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 213
+        width: 123
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f688bfd7e99ae498f5b29291309396
+      internalID: 498474377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_25
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 240
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637392756d4de05499d2ed48622dc99e
+      internalID: 878962747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_26
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 243
+        width: 88
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db9a6eb9d385ab40bf98deec74e636f
+      internalID: -768936699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 242
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ba85b1f612eb8448da04597786252a
+      internalID: 1556808140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_28
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 243
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7a58e496551884581605a2038ccd15
+      internalID: 1525825526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_29
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 114
+        width: 119
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934ae2aee73bed244998149521b1ecb1
+      internalID: -708952483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_30
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 136
+        width: 44
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdce311906527147b68dfb61ae12c69
+      internalID: -1967646793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_31
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 136
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2c94870c0c35142a0646da4e405123
+      internalID: -1631054070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 148
+        width: 159
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb8c323290741d4ea2fd4ed0db4078a
+      internalID: -1661415066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_33
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 153
+        width: 41
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dd55045901d2c43832f68307fe2968
+      internalID: -1583544517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_34
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 150
+        width: 41
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a003d75cfc44d9b49abc48745cc09c0a
+      internalID: 1449774597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_35
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 160
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d254c993afc25f48ae47515d5048425
+      internalID: 263838506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 160
+        width: 96
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a22a5ca26788294b9e1bc610302da41
+      internalID: 1747122325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_37
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 167
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab1b664297d2c947a129c37031c978a
+      internalID: 1184662272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_38
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 169
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1afcd5612b612c42abf8bef34131d30
+      internalID: -684466874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 100
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6ceca86223ed444894fda2b421e934
+      internalID: 1278673533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_40
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 119
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9c5c34b14147a42b11adae8fa54c69
+      internalID: 1965561456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_41
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 100
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf884691c0da9214aa4861f97defd041
+      internalID: -1500752203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_42
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 119
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331ee266002347744bf9c4d2f8d16957
+      internalID: -2035375204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tudinho manicomio_43
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 21
+        width: 108
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7facddd3216ca4e8fb060571549e23
+      internalID: 678634165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tudinho manicomio_0: -1687493569
+      tudinho manicomio_1: -152781217
+      tudinho manicomio_10: -88498522
+      tudinho manicomio_11: -1989806144
+      tudinho manicomio_12: 1213100543
+      tudinho manicomio_13: 286274936
+      tudinho manicomio_14: -94947678
+      tudinho manicomio_15: -569579080
+      tudinho manicomio_16: 314839766
+      tudinho manicomio_17: 582637067
+      tudinho manicomio_18: -948449459
+      tudinho manicomio_19: 1261883600
+      tudinho manicomio_2: 1110918372
+      tudinho manicomio_20: -1738651432
+      tudinho manicomio_21: -164273022
+      tudinho manicomio_22: 1159790517
+      tudinho manicomio_23: -456616529
+      tudinho manicomio_24: 498474377
+      tudinho manicomio_25: 878962747
+      tudinho manicomio_26: -768936699
+      tudinho manicomio_27: 1556808140
+      tudinho manicomio_28: 1525825526
+      tudinho manicomio_29: -708952483
+      tudinho manicomio_3: -649760362
+      tudinho manicomio_30: -1967646793
+      tudinho manicomio_31: -1631054070
+      tudinho manicomio_32: -1661415066
+      tudinho manicomio_33: -1583544517
+      tudinho manicomio_34: 1449774597
+      tudinho manicomio_35: 263838506
+      tudinho manicomio_36: 1747122325
+      tudinho manicomio_37: 1184662272
+      tudinho manicomio_38: -684466874
+      tudinho manicomio_39: 1278673533
+      tudinho manicomio_4: 230805675
+      tudinho manicomio_40: 1965561456
+      tudinho manicomio_41: -1500752203
+      tudinho manicomio_42: -2035375204
+      tudinho manicomio_43: 678634165
+      tudinho manicomio_5: -942306068
+      tudinho manicomio_6: -979205526
+      tudinho manicomio_7: -959031702
+      tudinho manicomio_8: -1603731351
+      tudinho manicomio_9: 1814116302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
