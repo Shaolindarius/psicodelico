@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db70322dae87f1478b9380b52996809, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
+  anim: {fileID: 633443396957777141}
   isAttacking: 0
   attackPointR: {fileID: 3314552583102642719}
   attackPointL: {fileID: 6321511974767239695}
@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf3e6312eb1f6d242a56c9b862546e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {fileID: 0}
+  respawnPoint: {fileID: 427267423345093896, guid: 3541d3101971cca479177017820bc28a, type: 3}
 --- !u!1 &6058290973289091632
 GameObject:
   m_ObjectHideFlags: 0

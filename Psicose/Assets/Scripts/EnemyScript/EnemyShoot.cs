@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyShoot : MonoBehaviour
 {
+    [SerializeField]
     private Transform target;
 
     [SerializeField]
@@ -38,10 +39,23 @@ public class EnemyShoot : MonoBehaviour
     private float timer;
 
     private GameObject player;
+
+    #region life
+    [SerializeField]
+    private int life;
+
+    [SerializeField]
+    private LifeBar lifeBar;
+
+    #endregion life
     // Start is called before the first frame update
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player"); // pega a tag do player e compara para calcular as informações
+        this.lifeBar.MaxLife = this.life;
+        this.lifeBar.Life = this.life;
+
     }
 
     // Update is called once per frame
@@ -172,6 +186,46 @@ public class EnemyShoot : MonoBehaviour
         {
             Gizmos.color = this.linhaColor;
             Gizmos.DrawLine(this.transform.position, this.target.position);
+        }
+    }
+
+    public void DamageHit(int dano)
+    {
+        int hit = dano;
+        if (this.life > 0)
+        {
+            this.life = life - hit;
+            ViewFeedBackDano(hit);
+            this.lifeBar.Life = this.life;
+            //possuir vida ainda;
+
+
+
+
+            if (this.life <= 0)
+            {
+                this.lifeBar.HideBar();
+                StopMove();
+                Destroy(this.gameObject, 1f);
+            }
+
+        }
+
+
+
+    }
+
+    private void ViewFeedBackDano(int dano)
+    {
+        Controlador.Instance.ViewDamage(dano, this.transform.position);
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Fireball"))
+        {
+            DamageHit(15);
         }
     }
 }
