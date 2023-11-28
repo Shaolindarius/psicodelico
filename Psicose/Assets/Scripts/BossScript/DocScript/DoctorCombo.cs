@@ -5,7 +5,7 @@ using UnityEngine;
 public class DoctorCombo : MonoBehaviour
 {
     private BossHealth bossHealth;
-    //private PlayerManager playerManager;
+    public Animator anim;
 
     public enum BossState
     {
@@ -23,11 +23,6 @@ public class DoctorCombo : MonoBehaviour
     public BossState currentState = BossState.Stage1;
     public GameObject playerPrefab;
 
-    [SerializeField]
-    public GameObject Waveprefab;
-
-    public string enemyTag = "Enemy";
-
     public float attackCooldownStage1 = 2f;
     public float attackCooldownStage2 = 1.5f;
     public float superCooldownStage3 = 3f;
@@ -37,6 +32,7 @@ public class DoctorCombo : MonoBehaviour
     private void Start()
     {
        bossHealth = GetComponent<BossHealth>();
+       anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -54,19 +50,6 @@ public class DoctorCombo : MonoBehaviour
                 break;
             default:
                 break;
-        }
-    }
-
-
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag(enemyTag))
-        {
-            //Playermanager playermanager = collision.GetComponent<Playermanager>();
-           // if (playermanager != null)
-           // {
-               //playermanager.TakeDamager(5);
-           // }
         }
     }
 
@@ -93,7 +76,7 @@ public class DoctorCombo : MonoBehaviour
         if (attackTimer >= attackCooldownStage2)
         {
             // Lógica do ataque com raios aqui
-            Instantiate(this.Waveprefab, this.transform.position, Quaternion.identity);
+            //Instantiate(this.Waveprefab, this.transform.position, Quaternion.identity);
 
             // Lógica do ataque normal aqui
 

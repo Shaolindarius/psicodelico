@@ -79,8 +79,8 @@ GameObject:
   - component: {fileID: 4228730711202863794}
   - component: {fileID: 4475023606136189712}
   - component: {fileID: 1741441943839600593}
-  - component: {fileID: 7344779041650254200}
   - component: {fileID: 1002554704230204602}
+  - component: {fileID: 4230311751247134196}
   m_Layer: 6
   m_Name: Player 1
   m_TagString: Player
@@ -312,22 +312,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dashDistance: 5
   dashDuration: 1
---- !u!114 &7344779041650254200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5104556600720286840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 792ca4a85e32daa4ebde0d6f427dc5ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  life: 100
-  Player: {fileID: 5104556600720286840}
-  punchDamager: 10
-  fireBallDamager: 20
 --- !u!114 &1002554704230204602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -341,6 +325,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnPoint: {fileID: 427267423345093896, guid: 3541d3101971cca479177017820bc28a, type: 3}
+--- !u!114 &4230311751247134196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5104556600720286840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7e9e1a5731603428853c95bdb3bad7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  life: 100
+  Player: {fileID: 5104556600720286840}
+  punchDamager: 5
+  fireBallDamager: 15
 --- !u!1 &6058290973289091632
 GameObject:
   m_ObjectHideFlags: 0
