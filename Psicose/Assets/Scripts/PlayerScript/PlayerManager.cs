@@ -74,5 +74,13 @@ public class PlayerManager : MonoBehaviour
         rend.material.color = color;
     }
 
+    private void OnEnterTrigger2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            TakeDamage(9);
+        }
+    }
+
 
 }

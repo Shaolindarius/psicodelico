@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canSpawn: 0
   enemyPref:
-  - {fileID: 3775564509139051844, guid: 8bbeee05a786735448555a5eb0817d6a, type: 3}
+  - {fileID: 7575250370769332528, guid: 68e7097707aca7740b5a1fae4e0398e5, type: 3}
   - {fileID: 1987126870919547932, guid: 468df543f4fc9a54eb198f6aa62f9a2c, type: 3}
   spawnRate: 2
-  numberSpawn: 0
+  numberSpawn: 3

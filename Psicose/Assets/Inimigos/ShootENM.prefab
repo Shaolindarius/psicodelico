@@ -117,7 +117,7 @@ MonoBehaviour:
   scapeColor: {r: 0.6792453, g: 0.49267972, b: 0.17621931, a: 0.8666667}
   spriteRenderer: {fileID: 5822639669042312708}
   life: 100
-  lifeBar: {fileID: 0}
+  lifeBar: {fileID: 3855208192815788690}
 --- !u!50 &877876315393391884
 Rigidbody2D:
   serializedVersion: 4
@@ -302,6 +302,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb431dcf379b03f4d94c705fc1249466, type: 3}
+--- !u!114 &3855208192815788690 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1609248720184591549, guid: cb431dcf379b03f4d94c705fc1249466, type: 3}
+  m_PrefabInstance: {fileID: 2582040620594837039}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681767ed11da8dc49880f8738b10abdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8868069589010521382 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6396507909727300361, guid: cb431dcf379b03f4d94c705fc1249466, type: 3}

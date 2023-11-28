@@ -163,7 +163,7 @@ public class Enemy_Follow : MonoBehaviour
     }
 
 
-    private void Combat()
+    public void Combat()
     {
         PlayerManager player = this.target.GetComponent<PlayerManager>();
         player.TakeDamage(2);
