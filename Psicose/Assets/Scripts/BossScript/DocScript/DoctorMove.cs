@@ -42,12 +42,20 @@ public class DoctorMove : MonoBehaviour
     [SerializeField]
     private int thunderZone;
 
+    public Animator anim;
+    public bool isAttacking = false;
+    public static DoctorMove instance;
 
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -66,6 +74,7 @@ public class DoctorMove : MonoBehaviour
             if (dist <= this.rangedmin)
             {
                 Punch();
+                isAttacking = true;
             }
         }
         else
@@ -111,7 +120,7 @@ public class DoctorMove : MonoBehaviour
 
     private void PunchHit()
     {
-        target.gameObject.GetComponent<PlayerManager>().TakeDamager(punch);
+        target.gameObject.GetComponent<PlayerManager>().TakeDamage(punch);
     }
     private void Wanted()
     {

@@ -1,11 +1,11 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy_Follow : MonoBehaviour
 {
-    #region Padrão de movimentação
-    #region movimentação Player
+    #region Padrao de movimentaï¿½ï¿½o
+    #region movimentacao Player
     //[SerializeField]
     private Transform target;// alvo
 
@@ -17,7 +17,7 @@ public class Enemy_Follow : MonoBehaviour
 
     [SerializeField]
     private float rangedmin;
-    #endregion movimentação Player
+    #endregion movimentaï¿½ï¿½o Player
     [SerializeField]
     private float radioVisio;
 
@@ -32,7 +32,7 @@ public class Enemy_Follow : MonoBehaviour
 
     [SerializeField]
     private Color linhaColor;
-    #endregion Padrão de movimentação
+    #endregion Padrao de movimentaï¿½ï¿½o
 
     [SerializeField]
     private float distanceAtk;
@@ -64,23 +64,23 @@ public class Enemy_Follow : MonoBehaviour
     void Update()
     {
         Wanted();
-            if(this.target != null)
-            {
-                Move();// tem alvo
-                VerifyAtk();
-            }
-            else
-            {
-                StopMove();//sem alvo
-            }
-       
-   
+        if (this.target != null)
+        {
+            Move();// tem alvo
+            VerifyAtk();
+        }
+        else
+        {
+            StopMove();//sem alvo
+        }
+
+
 
     }
 
     private void OnDrawGizmos()
     {
-        //visualização de informação
+        //visualizaï¿½ï¿½o de informaï¿½ï¿½o
         Gizmos.color = this.areaColor;
         Gizmos.DrawWireSphere(this.transform.position, this.radioVisio);
         if (this.target != null)
@@ -89,10 +89,10 @@ public class Enemy_Follow : MonoBehaviour
             Gizmos.DrawLine(this.transform.position, this.target.position);
         }
     }
-     private void Wanted()
+    private void Wanted()
     {
-        Collider2D colisor = Physics2D.OverlapCircle(this.transform.position, this.radioVisio,this.layerZoneVision);
-        if(colisor != null)
+        Collider2D colisor = Physics2D.OverlapCircle(this.transform.position, this.radioVisio, this.layerZoneVision);
+        if (colisor != null)
         {
             Vector2 posNow = this.transform.position;
             Vector2 posTarget = colisor.transform.position;
@@ -100,7 +100,7 @@ public class Enemy_Follow : MonoBehaviour
             dir = dir.normalized;
 
             RaycastHit2D hit = Physics2D.Raycast(posNow, dir);
-            if(hit.transform != null)
+            if (hit.transform != null)
             {
                 if (hit.transform.CompareTag("Player"))
                 {
@@ -116,7 +116,7 @@ public class Enemy_Follow : MonoBehaviour
                 this.target = null;
             }
 
-            
+
         }
         else
         {
@@ -130,7 +130,7 @@ public class Enemy_Follow : MonoBehaviour
         Vector2 posNow = this.transform.position;
 
         float dist = Vector2.Distance(posNow, posTarget);
-        if(dist >= this.rangedmin)
+        if (dist >= this.rangedmin)
         {
             Vector2 dir = posTarget - posNow;
             dir = dir.normalized;
@@ -165,13 +165,22 @@ public class Enemy_Follow : MonoBehaviour
 
     private void Combat()
     {
+        PlayerManager player = this.target.GetComponent<PlayerManager>();
+        player.TakeDamage(2);
 
     }
 
     private void VerifyAtk()
     {
+        PlayerManager player = this.target.GetComponent<PlayerManager>();
+        if (player.Death)
+        {
+            return;
+        }
+
+
         float distance = Vector3.Distance(this.transform.position, this.target.position);
-        if(distance<= this.distanceAtk)
+        if (distance <= this.distanceAtk)
         {
             this.timeWaitAtk -= Time.deltaTime;
             if (this.timeWaitAtk <= 0)
@@ -180,36 +189,37 @@ public class Enemy_Follow : MonoBehaviour
                 Combat();
             }
         }
+
     }
 
 
-    // função de dano recebido do inimigo
-        public void DamageHit(int dano)
-        {
+    // funï¿½ï¿½o de dano recebido do inimigo
+    public void DamageHit(int dano)
+    {
         int hit = dano;
         if (this.life > 0)
         {
-            this.life = life -hit;
+            this.life = life - hit;
             ViewFeedBackDano(hit);
             this.lifeBar.Life = this.life;
             //possuir vida ainda;
 
-            
-            
-            
-            if(this.life <= 0)
+
+
+
+            if (this.life <= 0)
             {
                 this.lifeBar.HideBar();
                 StopMove();
                 Destroy(this.gameObject, 1f);
             }
-       
+
         }
-        
-        
-        
+
+
+
     }
-    //função de feedback de dano recebido.
+    //funï¿½ï¿½o de feedback de dano recebido.
     private void ViewFeedBackDano(int dano)
     {
         Controlador.Instance.ViewDamage(dano, this.transform.position);
@@ -217,11 +227,9 @@ public class Enemy_Follow : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Fireball")){
+        if (collision.CompareTag("Fireball"))
+        {
             DamageHit(15);
         }
     }
-
-
-
 }
