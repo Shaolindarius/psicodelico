@@ -248,7 +248,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -341,6 +341,9 @@ MonoBehaviour:
   Player: {fileID: 5104556600720286840}
   punchDamager: 5
   fireBallDamager: 15
+  invTime: 0.5
+  redBar: {fileID: 0}
+  greenBar: {fileID: 0}
 --- !u!1 &6058290973289091632
 GameObject:
   m_ObjectHideFlags: 0

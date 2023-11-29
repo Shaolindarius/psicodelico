@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
 
     [SerializeField]
     private int life;
+    int lifeNow;
     [SerializeField]
     private GameObject Player;
     [SerializeField]
@@ -18,6 +20,10 @@ public class PlayerManager : MonoBehaviour
     private Color color;
     [SerializeField]
     private float invTime;
+
+    public Image redBar;
+    public Image greenBar;
+
 
     public bool Death
     {
@@ -32,6 +38,7 @@ public class PlayerManager : MonoBehaviour
     {
         rend = GetComponent<Renderer>();
         color = rend.material.color;
+        lifeNow = life;
 
     }
 
@@ -45,6 +52,7 @@ public class PlayerManager : MonoBehaviour
     public void TakeDamage(int mobhit)
     {
         life -= mobhit;
+        LifeBar();
 
         StartCoroutine(GetInvuneravel());
 
@@ -63,6 +71,33 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+    private void LifeBar()
+    {
+       Vector3 lifeBarScale  = greenBar.rectTransform.localScale;
+        lifeBarScale.x = (float)life / lifeNow;
+        greenBar.rectTransform.localScale = lifeBarScale;
+        StartCoroutine(RedBarDown(lifeBarScale));
+
+    }
+
+    IEnumerator RedBarDown(Vector3 newScale)
+    {
+        yield return new WaitForSeconds(1);
+        Vector3 redBarScale = redBar.transform.localScale;
+        while (redBar.transform.localScale.x > newScale.x)
+        {
+            redBarScale.x -= Time.deltaTime * 0.25f;
+            redBar.transform.localScale = redBarScale;
+
+            yield return null;
+        }
+        redBar.transform.localScale = newScale;
+    }
+
+
+
+
+
     IEnumerator GetInvuneravel()
     {
         Physics2D.IgnoreLayerCollision(8, 9, true);
@@ -78,7 +113,7 @@ public class PlayerManager : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
-            TakeDamage(9);
+            TakeDamage(2);
         }
 
         if (other.gameObject.CompareTag("Boss"))
