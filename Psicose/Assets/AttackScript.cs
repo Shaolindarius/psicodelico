@@ -4,25 +4,38 @@ using UnityEngine;
 
 public class AttackScript : StateMachineBehaviour
 {
+
+    Transform Player;
+    Rigidbody2D rb;
+    DoctorMove doctormove;
+
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
-    //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    
-    //}
+    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        Player = GameObject.Find("Player").transform;
+        rb = animator.GetComponent<Rigidbody2D>();
+        doctormove = animator.GetComponent<DoctorMove>();
+    }
+    
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (DoctorMove.instance.isAttacking)
+        animator.GetComponent<DoctorMove>().Punch();
+        animator.GetComponent<DoctorMove>().PunchHit();
+        
+        if (Vector2.Distance(Player.position, rb.position) <= doctormove.rangedmin)
         {
-            DoctorMove.instance.anim.Play("Attack");
+            animator.SetTrigger("Punch");
         }
+        
     }
+      
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        DoctorMove.instance.isAttacking = false;
+        animator.ResetTrigger("Punch");
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

@@ -74,11 +74,18 @@ public class PlayerManager : MonoBehaviour
         rend.material.color = color;
     }
 
-    private void OnEnterTrigger2D(Collider2D collision)
+    private void OnEnterTrigger2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Bullet"))
+        if (other.gameObject.CompareTag("Bullet"))
         {
             TakeDamage(9);
+        }
+
+        if (other.gameObject.CompareTag("Boss"))
+        {
+            other.GetComponent<DoctorMove>().PunchHit();
+            TakeDamage(5);
+
         }
     }
 

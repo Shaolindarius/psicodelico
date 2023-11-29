@@ -12,11 +12,11 @@ public class DoctorMove : MonoBehaviour
     private LayerMask layerZoneVision;
 
     [SerializeField]
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     [SerializeField]
     private float speedMove;
     [SerializeField]
-    private float rangedmin;
+    public float rangedmin;
     [SerializeField]
     private SpriteRenderer spriteRenderer;
 
@@ -34,7 +34,7 @@ public class DoctorMove : MonoBehaviour
 
 
     [SerializeField]
-    private int punch;
+    public int punch;
     [SerializeField]
     private int thunder;
     [SerializeField]
@@ -104,7 +104,7 @@ public class DoctorMove : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, this.radioPunch);
     }
 
-    private  void Punch()
+    public  void Punch()
     {
         Transform attackPoint;
 
@@ -118,7 +118,7 @@ public class DoctorMove : MonoBehaviour
     }
 
 
-    private void PunchHit()
+    public void PunchHit()
     {
         target.gameObject.GetComponent<PlayerManager>().TakeDamage(punch);
     }

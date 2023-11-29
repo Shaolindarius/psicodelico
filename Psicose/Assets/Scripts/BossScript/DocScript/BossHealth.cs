@@ -5,60 +5,44 @@ using UnityEngine;
 public class BossHealth : MonoBehaviour
 {
     public int currentBossHealth;
-    public int BossHealthController { get; private set;}
+    public int BossHealthController { get; private set; }
     public int health = 150;
 
-    #region life
-    [SerializeField]
-    private int life;
+    public bool isInvencible = false;
 
-    [SerializeField]
-    private LifeBar lifeBar;
 
-    #endregion life
 
     public void Start()
     {
-        this.lifeBar.MaxLife = this.life;
-        this.lifeBar.Life = this.life;
+        currentBossHealth = health;
     }
 
-    public void TakeDamage(int dano)
-    { 
-        health -= dano;
+    public void TakeDamage(int damage)
+    {
+        if (isInvencible)
+        {
+            return;
+        }
 
-        this.life = life - health;
-        ViewFeedBackDano(health);
-        this.lifeBar.Life = this.life;
-        //possuir vida ainda;
+        health -= damage;
 
+        if(health <= 25)
+        {
+            GetComponent<Animator>().SetBool("FinalMoments", true);
+        }
 
         if (health <= 0)
         {
-            if (this.life <= 0)
-            {
-                this.lifeBar.HideBar();
-                Destroy(this.gameObject, 1f);
-            }
+            Die();
         }
-    }
 
-    private void ViewFeedBackDano(int dano)
-    {
-        Controlador.Instance.ViewDamage(dano, this.transform.position);
-    }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Fireball"))
-        {
-            TakeDamage(15);
-        }
     }
 
     void Die()
-    { 
+    {
         Destroy(gameObject);
     }
-
 }
+
+
