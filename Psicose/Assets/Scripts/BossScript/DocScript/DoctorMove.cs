@@ -42,6 +42,8 @@ public class DoctorMove : MonoBehaviour
     [SerializeField]
     private int thunderZone;
 
+    public PlayerManager plManager;
+
     public Animator anim;
     public bool isAttacking = false;
     public static DoctorMove instance;
@@ -120,7 +122,7 @@ public class DoctorMove : MonoBehaviour
 
     public void PunchHit()
     {
-        target.gameObject.GetComponent<PlayerManager>().TakeDamage(punch);
+        plManager.TakeDamage(punch);
     }
     private void Wanted()
     {
