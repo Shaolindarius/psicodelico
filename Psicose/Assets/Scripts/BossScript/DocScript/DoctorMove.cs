@@ -32,6 +32,7 @@ public class DoctorMove : MonoBehaviour
     [SerializeField]
     private Transform Arms;
 
+    public PlayerManager plManager;
 
     [SerializeField]
     public int punch;
@@ -120,7 +121,7 @@ public class DoctorMove : MonoBehaviour
 
     public void PunchHit()
     {
-        target.gameObject.GetComponent<PlayerManager>().TakeDamage(punch);
+        plManager.TakeDamage(punch);
     }
     private void Wanted()
     {

@@ -246,7 +246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &330764433
 Animator:
   serializedVersion: 5
@@ -487,13 +487,14 @@ GameObject:
   - component: {fileID: 689496417}
   - component: {fileID: 689496420}
   - component: {fileID: 689496421}
+  - component: {fileID: 689496422}
   m_Layer: 0
   m_Name: Doctor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &689496417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,7 +507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b89e1f0d313b3a04e97508441c8557a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 2130870693}
   radioVisio: 10
   layerZoneVision:
     serializedVersion: 2
@@ -519,11 +520,12 @@ MonoBehaviour:
   lineColor: {r: 0, g: 0, b: 0, a: 0.7372549}
   radioPunch: 2
   Arms: {fileID: 2052478548}
+  plManager: {fileID: 2130870682}
   punch: 5
   thunder: 0
   thunderPunch: 0
   thunderZone: 0
-  anim: {fileID: 0}
+  anim: {fileID: 689496422}
   isAttacking: 0
 --- !u!212 &689496418
 SpriteRenderer:
@@ -586,7 +588,7 @@ Transform:
   m_GameObject: {fileID: 689496416}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 2.58, z: 0}
+  m_LocalPosition: {x: -0.92, y: -0.1, z: 0}
   m_LocalScale: {x: 3.02, y: 1.8287, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -655,6 +657,27 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0071505047, y: 0.011809067}
   m_Size: {x: 0.9928485, y: 2.0236177}
   m_Direction: 0
+--- !u!95 &689496422
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689496416}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 18134f9bca9109542a00c4c2ee5c0db4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &921895957
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,7 +695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &921895958
 Animator:
   serializedVersion: 5
@@ -782,7 +805,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1025960244
 Transform:
   m_ObjectHideFlags: 0
@@ -975,7 +998,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &1431510106
 Rigidbody2D:
   serializedVersion: 4
@@ -1170,7 +1193,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1505597095
 Animator:
   serializedVersion: 5
@@ -1406,11 +1429,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e9e1a5731603428853c95bdb3bad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 10
+  life: 100
   Player: {fileID: 2130870673}
-  punchDamager: 0
-  fireBallDamager: 0
-  invTime: 0
+  punchDamager: 10
+  fireBallDamager: 15
+  invTime: 0.9
+--- !u!4 &2130870693 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7072318075514601123, guid: e38258f7cfb60a04e8f0122810d5d169, type: 3}
+  m_PrefabInstance: {fileID: 1703633635}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
