@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class CheckpointHandler : MonoBehaviour
 {
+    Vector2 movement;
     public Transform respawnPoint;
+    public GameObject Player;
 
     private void Start()
     {
@@ -31,7 +33,9 @@ public class CheckpointHandler : MonoBehaviour
     public void Respawn()
     {
         transform.position = respawnPoint.position;
-        //Outras logicas a serem implementadas
+
+        //Player.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        //Player.gameObject.GetComponent<CapsuleCollider2D>().enabled = true;
     }
 }
 
