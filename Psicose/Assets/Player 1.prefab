@@ -324,7 +324,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf3e6312eb1f6d242a56c9b862546e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {fileID: 427267423345093896, guid: 3541d3101971cca479177017820bc28a, type: 3}
+  respawnPoint: {fileID: 0}
+  Player: {fileID: 5104556600720286840}
 --- !u!114 &4230311751247134196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -341,7 +342,7 @@ MonoBehaviour:
   Player: {fileID: 5104556600720286840}
   punchDamager: 5
   fireBallDamager: 15
-  invTime: 0.5
+  invTime: 0.9
   redBar: {fileID: 0}
   greenBar: {fileID: 0}
 --- !u!1 &6058290973289091632

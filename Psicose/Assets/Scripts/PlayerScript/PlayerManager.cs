@@ -24,6 +24,8 @@ public class PlayerManager : MonoBehaviour
     public Image redBar;
     public Image greenBar;
 
+    CheckpointHandler Checkpoint;
+
 
     public bool Death
     {
@@ -48,6 +50,11 @@ public class PlayerManager : MonoBehaviour
         {
             TakeDamage(5);
         }
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            TakeDamage(-5);
+        }
     }
     public void TakeDamage(int mobhit)
     {
@@ -62,6 +69,7 @@ public class PlayerManager : MonoBehaviour
             this.life = 0;
             Player.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             Player.gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+
 
         }
     }
