@@ -63,10 +63,10 @@ public class PlayerManager : MonoBehaviour
             Player.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             Player.gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
             Player.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
-            Player.gameObject.GetComponent<PlayerAttack>().enabled = false;
-            Player.gameObject.GetComponent<PlayerMovement>().enabled = false;
-            Player.gameObject.GetComponent<SpriteRenderer>().enabled = false;
-            Player.gameObject.GetComponent<Fireball>().enabled = false;
+            //Player.gameObject.GetComponent<PlayerAttack>().enabled = false;
+            //Player.gameObject.GetComponent<PlayerMovement>().enabled = false;
+            //Player.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            //Player.gameObject.GetComponent<PlayerFire>().enabled = false;
 
         }
     }
