@@ -1,0 +1,758 @@
+fileFormatVersion: 2
+guid: da5d3f6325451e84daa6d405d2addc3f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 343
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d03e325d1d730142ade12b2e5a5a0ef
+      internalID: 1947342047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 343
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267bbef6c3966694f8d46f38eaad7761
+      internalID: 576115107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 343
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf8c5368560941498428a65b0393219
+      internalID: 1757238512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 343
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccc1faa887e1d0429c7599123b47791
+      internalID: -1200340927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 343
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adfa0fa41462cb40b69dd4e525573eb
+      internalID: 1423557771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 343
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5897f3c108163274bb0799756a074602
+      internalID: -1910870312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 343
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37364a4ce7836845be329363204813c
+      internalID: 1979523287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 242
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269e9dab803fda44dba86ed3de5659c4
+      internalID: 594680550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 242
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34177eb07e04ff94da218fc60f265325
+      internalID: -1889027911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 242
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87b8554d0099b64daf439a18a2a7a6d
+      internalID: -491505662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_16
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 242
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae49d01e217f6342b6b3d1ca81c9e22
+      internalID: -1732006087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_18
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 242
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ba59b799d5367428f7fe467f583e11
+      internalID: -1795393501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_21
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 238
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528c4611aaa47da449fa0b66a3e83fde
+      internalID: -486894299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_22
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 243
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1199c6b6b4a75a04e955bcb99a3db6d5
+      internalID: -1032227031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 140
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdac19b383318fc4e8bd09a7e12a51be
+      internalID: -225076196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_26
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 139
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b07d6e2a9c9b34b802f18c91612472
+      internalID: 866877378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_28
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 141
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75edc452b1729ae4ba2a614dff11ddee
+      internalID: -330781536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_29
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 141
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af0c5ac129f94c439e97b9186ea29bd
+      internalID: -565505825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_30
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 141
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006a4be5622e20b478053408c220893b
+      internalID: 707588857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_31
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 141
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef6299451cd15440b74d3cd4cc3a395
+      internalID: -1832616901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_32
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 141
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda53bc030259d84da08380aa30a4da8
+      internalID: -1634709114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 40
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1543997bbca834e9c37eede6720f52
+      internalID: 986413747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_34
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 40
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb953237ce8d6c544a40a73631e52a53
+      internalID: -1880008387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 40
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392308df07659f24b87fcc78a3492d67
+      internalID: -316560982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_36
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 40
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a524df2d7e34e4d4192deb20cf296559
+      internalID: 1733462684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_37
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 40
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac18069899b65e40a011ca23c45aff9
+      internalID: -2052488921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_39
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 40
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e101dc0cf13f04ca69a38e78db953a
+      internalID: -1040249672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tom batendo 1 (1)_41
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 40
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafe588dbcfd5184099b8a088839c62f
+      internalID: -672736592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tom batendo 1 (1)_0: 1371728645
+      tom batendo 1 (1)_1: 1947342047
+      tom batendo 1 (1)_10: 1979523287
+      tom batendo 1 (1)_11: 594680550
+      tom batendo 1 (1)_12: -1889027911
+      tom batendo 1 (1)_13: 584421076
+      tom batendo 1 (1)_14: -491505662
+      tom batendo 1 (1)_15: 214146085
+      tom batendo 1 (1)_16: -1732006087
+      tom batendo 1 (1)_17: 1562974616
+      tom batendo 1 (1)_18: -1795393501
+      tom batendo 1 (1)_19: -305590128
+      tom batendo 1 (1)_2: 576115107
+      tom batendo 1 (1)_20: 238359619
+      tom batendo 1 (1)_21: -486894299
+      tom batendo 1 (1)_22: -1032227031
+      tom batendo 1 (1)_23: -839914910
+      tom batendo 1 (1)_24: -225076196
+      tom batendo 1 (1)_25: 1662986579
+      tom batendo 1 (1)_26: 866877378
+      tom batendo 1 (1)_27: 2136359071
+      tom batendo 1 (1)_28: -330781536
+      tom batendo 1 (1)_29: -565505825
+      tom batendo 1 (1)_3: -2058924810
+      tom batendo 1 (1)_30: 707588857
+      tom batendo 1 (1)_31: -1832616901
+      tom batendo 1 (1)_32: -1634709114
+      tom batendo 1 (1)_33: 986413747
+      tom batendo 1 (1)_34: -1880008387
+      tom batendo 1 (1)_35: -316560982
+      tom batendo 1 (1)_36: 1733462684
+      tom batendo 1 (1)_37: -2052488921
+      tom batendo 1 (1)_38: -1022833606
+      tom batendo 1 (1)_39: -1040249672
+      tom batendo 1 (1)_4: 1757238512
+      tom batendo 1 (1)_40: 629495980
+      tom batendo 1 (1)_41: -672736592
+      tom batendo 1 (1)_42: 641472744
+      tom batendo 1 (1)_5: 1980136329
+      tom batendo 1 (1)_6: -1200340927
+      tom batendo 1 (1)_7: 1911648900
+      tom batendo 1 (1)_8: 1423557771
+      tom batendo 1 (1)_9: -1910870312
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
