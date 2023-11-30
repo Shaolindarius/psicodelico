@@ -62,43 +62,38 @@ public class EnemyShoot : MonoBehaviour
     void Update()
     {
         Scape();
-        if(target != null)
+
+        if (target != null)
         {
-            InvokeRepeating("Move", 0f, 3f);
-            
+            Move();
         }
         else
         {
             StopMove();
-            float distance = Vector2.Distance(transform.position, player.transform.position);
+
+            float distance = player ? Vector2.Distance(transform.position, player.transform.position) : float.MaxValue;
+
             if (distance < shootZone)
             {
                 timer += Time.deltaTime;
 
                 if (timer > timerShoot)
                 {
-                    timer = 0;// rest time a cada 2 seg
-                    shoot();// chama a função atirar
+                    timer = 0; // reinicia o tempo a cada 2 segundos
+                    shoot();   // chama a função atirar
                 }
             }
-
         }
-
-        
-        
-        
-
-
-        
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {/*
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            collision.gameObject.GetComponent<Respawn>().LoseLife();
-        }
-        */
-    }
+
+        
+        
+        
+
+
+        
+
+    
     void shoot()
     {
        Instantiate(bullet,bulletPos.position,Quaternion.identity);

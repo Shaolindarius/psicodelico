@@ -51,10 +51,6 @@ public class PlayerManager : MonoBehaviour
             TakeDamage(5);
         }
 
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            TakeDamage(-5);
-        }
     }
     public void TakeDamage(int mobhit)
     {
@@ -67,8 +63,8 @@ public class PlayerManager : MonoBehaviour
         if (life <= 0)
         {
             this.life = 0;
-            Player.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            Player.gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+            //Player.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            //Player.gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
 
 
         }
@@ -119,11 +115,9 @@ public class PlayerManager : MonoBehaviour
             TakeDamage(2);
         }
 
-        if (other.gameObject.CompareTag("Boss"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            other.GetComponent<DoctorMove>().PunchHit();
-            TakeDamage(5);
-
+            TakeDamage(10);
         }
     }
 

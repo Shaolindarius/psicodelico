@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    private BossHealth bossHealth;
 
     public Animator anim;
     public bool isAttacking = false;
@@ -113,11 +112,7 @@ public class PlayerAttack : MonoBehaviour
                  {
                      enemy.DamageHit(attackDamage);
                  }
-              BossHealth boss = colliderEnemy.GetComponent<BossHealth>();
-                if (boss != null)
-                {
-                    boss.TakeDamage(attackDamage);
-                }
+                
                  
            }
         }

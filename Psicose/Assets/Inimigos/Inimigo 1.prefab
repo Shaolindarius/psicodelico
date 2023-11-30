@@ -503,7 +503,7 @@ MonoBehaviour:
   areaColor: {r: 1, g: 0.2028302, b: 0.2028302, a: 0.21960784}
   linhaColor: {r: 0.3541735, g: 0.8490566, b: 0.3003738, a: 0.7647059}
   distanceAtk: 0.6
-  timeAtk: 0
+  timeAtk: 3
   life: 50
   lifeBar: {fileID: 2882504313843569666}
 --- !u!70 &5719625629854295411

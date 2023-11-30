@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5822639669042312708}
   - component: {fileID: 8132163775619793110}
   - component: {fileID: 877876315393391884}
-  - component: {fileID: -4483070884966024788}
-  m_Layer: 0
+  - component: {fileID: -5649555142670888560}
+  m_Layer: 7
   m_Name: ShootENM
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &-4483070884966024788
+--- !u!95 &-5649555142670888560
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -155,7 +155,7 @@ Animator:
   m_GameObject: {fileID: 1987126870919547932}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7f2766f4b9123d64dbe074009f967499, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

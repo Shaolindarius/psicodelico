@@ -34,8 +34,6 @@ public class CheckpointHandler : MonoBehaviour
     {
         transform.position = respawnPoint.position;
 
-        //Player.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-        //Player.gameObject.GetComponent<CapsuleCollider2D>().enabled = true;
     }
 }
 

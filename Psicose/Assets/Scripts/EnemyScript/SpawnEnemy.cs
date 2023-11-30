@@ -26,15 +26,19 @@ public class SpawnEnemy : MonoBehaviour
     {
         WaitForSeconds wait = new WaitForSeconds(spawnRate);
 
-        while(true)// verifica se é possivel continuar chamando o persoangem
+        int count = 0; 
+
+        while(numberSpawn > count)// verifica se é possivel continuar chamando o persoangem
         {
+            
             yield return wait;// verifica retorna o tempo de wpawn para maquina
 
             int rand = Random.Range(0,enemyPref.Length);// gera um valor aleatorio entre o número de itens dentro a array;
 
             GameObject enemyToSpawn = enemyPref[rand];//marca o obejto sorteado
 
-            Instantiate(enemyToSpawn, transform.position, Quaternion.identity); // chama o objeto 
+            Instantiate(enemyToSpawn, transform.position, Quaternion.identity);
+            count++;// chama o objeto 
             /* usando esse codigo é possivel cria a opção de controle de números de ordas se vai sair 2 ou mais inimigos simutaneos e a quantidade de inimigos na tela.*/
         }
 

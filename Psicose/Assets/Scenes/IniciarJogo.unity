@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 312006836}
   - component: {fileID: 312006835}
   - component: {fileID: 312006841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: narsejas_0
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -693,6 +693,10 @@ PrefabInstance:
     - target: {fileID: 1987126870919547932, guid: 468df543f4fc9a54eb198f6aa62f9a2c, type: 3}
       propertyPath: m_Name
       value: ShootENM
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987126870919547932, guid: 468df543f4fc9a54eb198f6aa62f9a2c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3447010702335884668, guid: 468df543f4fc9a54eb198f6aa62f9a2c, type: 3}
       propertyPath: m_Name
@@ -965,7 +969,7 @@ Transform:
   m_GameObject: {fileID: 967832332}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.86, y: 5.471, z: -10}
+  m_LocalPosition: {x: 12.05, y: 13.02, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1110,9 +1114,9 @@ GameObject:
   - component: {fileID: 1247767479}
   - component: {fileID: 1247767484}
   - component: {fileID: 1247767485}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: doc parado (1)_0
-  m_TagString: Boss
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1239,13 +1243,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1560785585}
-  radioVisio: 12
+  radioVisio: 6
   layerZoneVision:
     serializedVersion: 2
     m_Bits: 64
   rb: {fileID: 1247767481}
   speedMove: 3
-  rangedmin: 2
+  rangedmin: 1
   spriteRenderer: {fileID: 1247767482}
   areaColor: {r: 1, g: 0, b: 0, a: 0}
   lineColor: {r: 0.033018887, g: 0.18373482, b: 1, a: 0}
@@ -1343,11 +1347,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7072318075514601123, guid: e38258f7cfb60a04e8f0122810d5d169, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.86
+      value: 12.05
       objectReference: {fileID: 0}
     - target: {fileID: 7072318075514601123, guid: e38258f7cfb60a04e8f0122810d5d169, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.471
+      value: 13.02
       objectReference: {fileID: 0}
     - target: {fileID: 7072318075514601123, guid: e38258f7cfb60a04e8f0122810d5d169, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1404,11 +1408,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8180915905746270373, guid: f10ed6a107b0e7a459801227907bc79a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.86
+      value: 12.05
       objectReference: {fileID: 0}
     - target: {fileID: 8180915905746270373, guid: f10ed6a107b0e7a459801227907bc79a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.471
+      value: 13.02
       objectReference: {fileID: 0}
     - target: {fileID: 8180915905746270373, guid: f10ed6a107b0e7a459801227907bc79a, type: 3}
       propertyPath: m_LocalPosition.z

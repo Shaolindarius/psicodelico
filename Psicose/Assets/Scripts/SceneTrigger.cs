@@ -5,14 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class SceneTrigger : MonoBehaviour
 {
-    public string SceneToLoad; // Nome da cena para carregar
+    [SerializeField]
+    private string sceneName;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
-        {    
-            SceneManager.LoadScene(SceneToLoad);
-        }
+        ProximaFase();
+        
     }
+
+    private void ProximaFase()
+    {
+        SceneManager.LoadScene(this.sceneName);
+    }
+
+
 }
 
