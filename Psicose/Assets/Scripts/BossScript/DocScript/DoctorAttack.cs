@@ -49,30 +49,36 @@ public class DoctorAttack : MonoBehaviour
                 attackCooldown -= Time.deltaTime;
         }
     }
-
+   
     void Attack()
     {
         if(!isAttacking)
         {
-            isAttacking = true;
-            anim.SetTrigger("Attack");
+            
+            isAttacking = true;  
+            anim.SetBool("Attack",true);
             Invoke("StopAttack", attackDuration);
+            
         }
         else
         {
+            
             return;
         }
 
         Collider2D collider = Physics2D.OverlapCircle(transform.position, range, attackMask);
         if (collider != null)
         {
+            
             collider.GetComponent<PlayerManager>().TakeDamage(damage);
         }
     }
 
     void StopAttack()
     {
+        anim.SetBool("attack", false);
         CancelInvoke("Attack");
+       
     }
 
 

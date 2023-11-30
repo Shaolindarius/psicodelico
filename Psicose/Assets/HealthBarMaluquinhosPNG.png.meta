@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3b89c8f11d3333d4ca8f90c0c82fba03
+guid: 89c71ed101331044893d2d675f3b4384
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,33 +81,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -134,7 +121,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HealthBarMaluquinhosPNG_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 76
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2ee46f2ee378943aadc6eb08c2004c
+      internalID: 1338344607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBarMaluquinhosPNG_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 50
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c92ffc1de5fc743af2d20e3f5cf58d
+      internalID: 1148582808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +174,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HealthBarMaluquinhosPNG_0: 1338344607
+      HealthBarMaluquinhosPNG_1: -1967954943
+      HealthBarMaluquinhosPNG_10: -1396003679
+      HealthBarMaluquinhosPNG_11: -2134457598
+      HealthBarMaluquinhosPNG_12: -1367338355
+      HealthBarMaluquinhosPNG_13: -1784467059
+      HealthBarMaluquinhosPNG_14: 1148582808
+      HealthBarMaluquinhosPNG_15: -346222905
+      HealthBarMaluquinhosPNG_16: 325142597
+      HealthBarMaluquinhosPNG_17: 232098139
+      HealthBarMaluquinhosPNG_18: 2145844342
+      HealthBarMaluquinhosPNG_19: 1816316680
+      HealthBarMaluquinhosPNG_2: 1987901646
+      HealthBarMaluquinhosPNG_20: 742557898
+      HealthBarMaluquinhosPNG_21: -1607468065
+      HealthBarMaluquinhosPNG_22: 696678346
+      HealthBarMaluquinhosPNG_23: 322906616
+      HealthBarMaluquinhosPNG_24: -1854772317
+      HealthBarMaluquinhosPNG_25: 902700961
+      HealthBarMaluquinhosPNG_26: -1923575774
+      HealthBarMaluquinhosPNG_27: 2130139373
+      HealthBarMaluquinhosPNG_3: -476954165
+      HealthBarMaluquinhosPNG_4: 2089900069
+      HealthBarMaluquinhosPNG_5: -1530507486
+      HealthBarMaluquinhosPNG_6: -1236647416
+      HealthBarMaluquinhosPNG_7: 1436020603
+      HealthBarMaluquinhosPNG_8: 1975249108
+      HealthBarMaluquinhosPNG_9: 971727238
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyShoot : MonoBehaviour
 {
+    public Animator anim;
+
+
     [SerializeField]
     private Transform target;
 
@@ -144,6 +147,7 @@ public class EnemyShoot : MonoBehaviour
             Vector2 dir = posTarget - posNow;
             dir = dir.normalized;
             this.rb.velocity -= (this.speedMove * dir);
+            anim.SetBool("walk", true);
 
             //flip sprite
 
@@ -167,6 +171,7 @@ public class EnemyShoot : MonoBehaviour
     private void StopMove()
     {
         this.rb.velocity = Vector2.zero;
+        anim.SetBool("walk", false);
     }
 
     private void OnDrawGizmos()

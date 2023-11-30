@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Boss
   - RespawnPoint
+  - bulletBoss
   layers:
   - Default
   - TransparentFX

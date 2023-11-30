@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Enemy_Follow : MonoBehaviour
 {
+
+    public Animator anim;
     #region Padrao de movimenta��o
     #region movimentacao Player
     //[SerializeField]
@@ -39,8 +42,11 @@ public class Enemy_Follow : MonoBehaviour
 
     [SerializeField]
     private float timeAtk;
+    [SerializeField]
+    private int damageAtk;
 
     private float timeWaitAtk;
+
 
 
     #region life
@@ -66,7 +72,7 @@ public class Enemy_Follow : MonoBehaviour
         Wanted();
         if (this.target != null)
         {
-            Move();// tem alvo
+            Move();// tem alvo           
             VerifyAtk();
         }
         else
@@ -123,7 +129,7 @@ public class Enemy_Follow : MonoBehaviour
             this.target = null;
         }
     }
-
+    
     private void Move()
     {
         Vector2 posTarget = this.target.position;
@@ -135,6 +141,7 @@ public class Enemy_Follow : MonoBehaviour
             Vector2 dir = posTarget - posNow;
             dir = dir.normalized;
             this.rb.velocity = (this.speedMove * dir);
+            anim.SetBool("follow", true);
 
             //flip sprite
 
@@ -160,13 +167,14 @@ public class Enemy_Follow : MonoBehaviour
     private void StopMove()
     {
         this.rb.velocity = Vector2.zero;
+        anim.SetBool("follow", false);
     }
 
 
     public void Combat()
     {
         PlayerManager player = this.target.GetComponent<PlayerManager>();
-        player.TakeDamage(2);
+        player.TakeDamage(damageAtk);
 
     }
 
@@ -186,8 +194,13 @@ public class Enemy_Follow : MonoBehaviour
             if (this.timeWaitAtk <= 0)
             {
                 this.timeWaitAtk = this.timeAtk;
+                anim.SetBool("attack", true);
                 Combat();
             }
+        }
+        else
+        {
+            anim.SetBool("attack", false);
         }
 
     }

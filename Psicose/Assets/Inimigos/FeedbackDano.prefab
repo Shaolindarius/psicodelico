@@ -250,6 +250,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDamage: {fileID: 3867636661925172775}
-  textMove: 10
-  textMoveSpeed: 3
-  textTime: 1.5
+  textMove: 7
+  textMoveSpeed: 1.7
+  textTime: 1.7

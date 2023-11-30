@@ -108,12 +108,14 @@ public class PlayerAttack : MonoBehaviour
            foreach (Collider2D colliderEnemy in collidersEnemy)
            {
                Enemy_Follow enemy = colliderEnemy.GetComponent<Enemy_Follow>();
-                 if (enemy != null)
+               HealthBoss boss = colliderEnemy.GetComponent<HealthBoss>();
+                if (enemy != null)
                  {
                      enemy.DamageHit(attackDamage);
-                 }
-                
-                 
+                 }else if(boss != null)
+                {
+                    boss.TakeDamage(attackDamage - 2);
+                }
            }
         }
 

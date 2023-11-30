@@ -12,6 +12,7 @@ public class Fireball : MonoBehaviour
     [SerializeField] public GameObject fireballPrefab;
     [SerializeField] public float timer;
     private GameObject enemy;
+    
 
     // Update is called once per frame
 

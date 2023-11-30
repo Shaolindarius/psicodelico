@@ -24,7 +24,11 @@ public class PlayerManager : MonoBehaviour
     public Image redBar;
     public Image greenBar;
 
+    
+    
+
     CheckpointHandler Checkpoint;
+
 
 
     public bool Death
@@ -108,18 +112,19 @@ public class PlayerManager : MonoBehaviour
         rend.material.color = color;
     }
 
-    private void OnEnterTrigger2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.CompareTag("Bullet"))
+        if (collision.CompareTag("Bullet"))
         {
-            TakeDamage(2);
+            TakeDamage(5);
         }
-
-        if (other.gameObject.CompareTag("Enemy"))
+        else if (collision.CompareTag("bulletBoss"))
         {
             TakeDamage(10);
         }
     }
+
+    
 
 
 }
